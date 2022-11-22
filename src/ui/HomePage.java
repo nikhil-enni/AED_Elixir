@@ -122,7 +122,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addComponent(jHomeBtn)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jCityAdminBtn)
-                .addContainerGap(279, Short.MAX_VALUE))
+                .addContainerGap(308, Short.MAX_VALUE))
         );
 
         jSplitPane1.setLeftComponent(jControlPanel);
@@ -198,7 +198,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addGroup(jRegistrationLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jBookAppointment)
                     .addComponent(jButton1))
-                .addContainerGap(146, Short.MAX_VALUE))
+                .addContainerGap(175, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Registration", jRegistration);
@@ -324,7 +324,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addGroup(jPatientFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel17)
                     .addComponent(jPatConfirmPass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
                 .addGroup(jPatientFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jSaveBtn)
                     .addComponent(jButton2))
@@ -422,7 +422,7 @@ public class HomePage extends javax.swing.JFrame {
                 .addGroup(jDoctorFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jDocSave)
                     .addComponent(jDocClear))
-                .addContainerGap(55, Short.MAX_VALUE))
+                .addContainerGap(84, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Doctor Form", jDoctorForm);
@@ -439,8 +439,8 @@ public class HomePage extends javax.swing.JFrame {
         jHomePageLayout.setVerticalGroup(
             jHomePageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jHomePageLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTabbedPane1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 371, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
