@@ -5,13 +5,13 @@
 package business.role;
 
 //import Business.Customer.CustomerDirectory;
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.PatientList;
-import Business.Network.Network;
+import business.EcoSystem;
+import business.enterprise.Enterprise;
+import business.medicalEmployment.PatientList;
+import business.network.Network;
 
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
+import business.organization.Organization;
+import business.userAccount.UserAccount;
 import javax.swing.JPanel;
 
 /**

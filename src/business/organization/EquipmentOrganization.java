@@ -5,8 +5,8 @@
  */
 package business.organization;
 
-import Business.Role.EquipmentAdmin;
-import Business.Role.Role;
+import business.role.EquipmentAdmin;
+import business.role.Role;
 import java.util.ArrayList;
 
 /**
