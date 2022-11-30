@@ -9,16 +9,16 @@ package business;
 //import Business.Customer.CustomerDirectory;
 //import Business.DeliveryMan.DeliveryManDirectory;
 //import Business.Restaurant.RestaurantDirectory;
-import Business.Enterprise.Enterprise;
+import business.enterprise.Enterprise;
 import Business.Equipment.EquipmentList;
 import Business.MedicalEmployment.DoctorList;
 import Business.MedicalEmployment.PatientList;
 import Business.MedicalEmployment.AmbulanceList;
 import Business.Network.Network;
 import Business.Organization.Organization;
-import Business.Role.Role;
-import Business.Role.SystemAdminRole;
-import Business.UserAccount.UserAccount;
+import business.role.Role;
+import business.role.SystemAdminRole;
+import business.userAccount.UserAccount;
 import java.util.ArrayList;
 
 /**

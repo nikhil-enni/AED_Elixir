@@ -1,8 +1,8 @@
 package business;
 
-import Business.Employee.Employee;
-import Business.Role.SystemAdminRole;
-import Business.UserAccount.UserAccount;
+import business.employee.Employee;
+import business.role.SystemAdminRole;
+import business.userAccount.UserAccount;
 
 /**
  *
