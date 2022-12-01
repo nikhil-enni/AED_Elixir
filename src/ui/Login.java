@@ -103,9 +103,9 @@ public class Login extends javax.swing.JFrame {
         String username=jUserName.getText();
         String password=jPassword.getText();
         
-        if(username.equals("admin") && password.equals("pass123")){
-            PatientSignUp pat=new PatientSignUp();
-            pat.setVisible(true);
+        if(username.equals("admin") && password.equals("pass")){
+            HomePage home=new HomePage();
+            home.setVisible(true);
             dispose();
         }
                 

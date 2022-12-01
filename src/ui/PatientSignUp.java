@@ -236,9 +236,9 @@ public class PatientSignUp extends javax.swing.JFrame {
                             "Welcome, Your account is sucessfully created");
                     }
                     connection.close();
-                } catch (Exception exception) {
+        } catch (Exception exception) {
                     exception.printStackTrace();
-                }
+        }
 
         
     }//GEN-LAST:event_jSubmitActionPerformed
