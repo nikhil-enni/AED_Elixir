@@ -4,10 +4,10 @@
  */
 package business.organization;
 
-import Business.Employee.EmployeeDirectory;
-import Business.Role.Role;
-import Business.UserAccount.UserAccountDirectory;
-import Business.WorkQueue.WorkQueue;
+import business.employee.EmployeeDirectory;
+import business.role.Role;
+import business.userAccount.UserAccountDirectory;
+import business.workQueue.WorkQueue;
 import java.util.ArrayList;
 
 /**

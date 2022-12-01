@@ -5,7 +5,7 @@
  */
 package business.medicalEmployment;
 
-import Business.Medicine.PrescriptionList;
+import business.medicine.PrescriptionList;
 import java.util.Date;
 
 /**

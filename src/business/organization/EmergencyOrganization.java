@@ -4,10 +4,10 @@
  */
 package business.organization;
 
-import Business.Role.EmergencyDoctorRole;
-import Business.Role.EmergencyAdminRole;
-import Business.Role.EmergencyUserRole;
-import Business.Role.Role;
+import business.role.EmergencyDoctorRole;
+import business.role.EmergencyAdminRole;
+import business.role.EmergencyUserRole;
+import business.role.Role;
 import java.util.ArrayList;
 
 /**

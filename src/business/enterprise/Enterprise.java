@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 package business.enterprise;
-import Business.Organization.Organization;
-import Business.Organization.OrganizationDirectory;
+import business.organization.Organization;
+import business.organization.OrganizationDirectory;
 
 /**
  *

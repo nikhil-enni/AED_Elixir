@@ -5,14 +5,14 @@
  */
 package business.enterprise;
 
-import Business.Role.AmbulanceRole;
-import Business.Role.EmergencyDoctorRole;
-import Business.Role.Role;
+import business.role.AmbulanceRole;
+import business.role.EmergencyDoctorRole;
+import business.role.Role;
 import java.util.ArrayList;
-import Business.Role.EmergencyAdminRole;
-import Business.Role.LabAssistantRole;
-import Business.Role.PatientRole;
-import Business.Role.ReceptionistRole;
+import business.role.EmergencyAdminRole;
+import business.role.LabAssistantRole;
+import business.role.PatientRole;
+import business.role.ReceptionistRole;
 
 /**
  *

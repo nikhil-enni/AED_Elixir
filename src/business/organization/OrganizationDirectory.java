@@ -5,8 +5,8 @@
  */
 package business.organization;
 
-import Business.Enterprise.EmergencyUnit;
-import Business.Role.EmergencyAdminRole;
+import business.enterprise.EmergencyUnit;
+import business.role.EmergencyAdminRole;
 import java.util.ArrayList;
 
 /**

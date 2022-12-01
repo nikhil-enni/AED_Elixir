@@ -5,9 +5,9 @@
  */
 package business.organization;
 
-import Business.Role.AmbulanceRole;
-import Business.Role.EmergencyAdminRole;
-import Business.Role.Role;
+import business.role.AmbulanceRole;
+import business.role.EmergencyAdminRole;
+import business.role.Role;
 import java.util.ArrayList;
 
 /**

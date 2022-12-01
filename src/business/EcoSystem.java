@@ -15,7 +15,7 @@ import business.medicalEmployment.DoctorList;
 import business.medicalEmployment.PatientList;
 import business.medicalEmployment.AmbulanceList;
 import business.network.Network;
-import business.Organization.Organization;
+import business.organization.Organization;
 import business.role.Role;
 import business.role.SystemAdminRole;
 import business.userAccount.UserAccount;
