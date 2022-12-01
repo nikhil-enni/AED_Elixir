@@ -16,7 +16,7 @@ import userinterface.AccountingUnitAdminArea.AccountingUnitAdminWorkAreaJPanel;
 
 /**
  *
- * @author ashleshagokhale
+ * @author vaishnaviyadamreddy
  */
 public class AccountingAdminRole extends Role{
     public JPanel createWorkArea(JPanel userProcessContainer, 
