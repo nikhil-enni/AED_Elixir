@@ -11,7 +11,7 @@ import business.medicalEmployment.PatientList;
 import business.network.Network;
 
 import business.organization.Organization;
-import business.UserAccount.UserAccount;
+import business.userAccount.UserAccount;
 import javax.swing.JPanel;
 
 /**

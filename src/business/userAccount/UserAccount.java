@@ -4,9 +4,9 @@
  */
 package business.userAccount;
 
-import business.Employee.Employee;
+import business.employee.Employee;
 import business.role.Role;
-import business.WorkQueue.WorkQueue;
+import business.workQueue.WorkQueue;
 
 /**
  *

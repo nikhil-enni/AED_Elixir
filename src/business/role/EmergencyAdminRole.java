@@ -15,10 +15,10 @@ import Business.Organization.Organization;
 import Business.UserAccount.UserAccount;
 //import userinterface.RestaurantAdminRole.AdminWorkAreaJPanel;
 import javax.swing.JPanel;
-import userinterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
-import userinterface.EmergencyUserWorkArea.EmergencyPatientAdminWorkArea;
-import userinterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
-import userinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
+import userInterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
+import userInterface.EmergencyUserWorkArea.EmergencyPatientAdminWorkArea;
+import userInterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
+import userInterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
 
 /**
  *

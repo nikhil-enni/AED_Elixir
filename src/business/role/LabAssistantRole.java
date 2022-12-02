@@ -4,14 +4,14 @@
  */
 package business.role;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
+import business.EcoSystem;
+import business.enterprise.Enterprise;
+import business.network.Network;
+import business.organization.Organization;
+import business.userAccount.UserAccount;
 import javax.swing.JPanel;
-import userinterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
-import userinterface.LabWorkArea.LabWorkAreaJPanel;
+import userInterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
+import userInterface.LabWorkArea.LabWorkAreaJPanel;
 
 /**
  *

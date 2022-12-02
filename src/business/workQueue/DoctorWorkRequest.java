@@ -13,7 +13,7 @@ import java.util.Date;
 
 /**
  *
- * @author singh
+ * @author amisha03
  */
 public class DoctorWorkRequest extends WorkRequest {
     
