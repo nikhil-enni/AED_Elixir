@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userInterface.accountUnitAdminArea;
+package userinterface.EmergencyUnitAdminArea;
 
 import Business.EcoSystem;
 import Business.Employee.Employee;
@@ -11,26 +11,28 @@ import Business.Enterprise.Enterprise;
 import Business.Organization.Organization;
 import Business.Organization.OrganizationDirectory;
 import Business.Organization.PatientOrganization;
+import java.awt.Color;
+import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.JTableHeader;
 
 /**
  *
- * @author vaishnaviyadamreddy
+ * @author sri_sai_nikhil_enni
  */
-public class AccountingUnitManageEmployeeJPanel extends javax.swing.JPanel {
+public class EmergencyUnitManageEmployeeJPanel extends javax.swing.JPanel {
 
     /**
-     * Creates new form AccountingUnitManageEmployeeJPanel
+     * Creates new form EmergencyUnitManageEmployeeJPanel
      */
-    JPanel userProcessContainer;
+     JPanel userProcessContainer;
     Enterprise enterprise;
     EcoSystem ecosystem;
     private OrganizationDirectory organizationDirectory;
-    
-    public AccountingUnitManageEmployeeJPanel(JPanel userProcessContainer, Enterprise enterprise, EcoSystem ecosystem) {
+    public EmergencyUnitManageEmployeeJPanel(JPanel userProcessContainer, Enterprise enterprise, EcoSystem ecosystem) {
         initComponents();
-        this.userProcessContainer = userProcessContainer;
+         this.userProcessContainer = userProcessContainer;
         this.enterprise = enterprise;
         this.ecosystem = ecosystem;
         this.organizationDirectory = enterprise.getOrganizationDirectory();
@@ -48,7 +50,6 @@ public class AccountingUnitManageEmployeeJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         organizationJComboBox = new javax.swing.JComboBox();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -61,12 +62,12 @@ public class AccountingUnitManageEmployeeJPanel extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(255, 255, 255));
+        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Khmer UI", 1, 14)); // NOI18N
         jLabel1.setText("Organization");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 88, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 87, -1, -1));
 
         organizationJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         organizationJComboBox.addActionListener(new java.awt.event.ActionListener() {
@@ -74,7 +75,7 @@ public class AccountingUnitManageEmployeeJPanel extends javax.swing.JPanel {
                 organizationJComboBoxActionPerformed(evt);
             }
         });
-        jPanel1.add(organizationJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(244, 85, 250, -1));
+        add(organizationJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(251, 84, 200, -1));
 
         organizationJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -102,12 +103,13 @@ public class AccountingUnitManageEmployeeJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        organizationJTable.setColumnSelectionAllowed(true);
         jScrollPane1.setViewportView(organizationJTable);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 142, 480, 113));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 141, 480, 107));
 
         jLabel3.setText("Organization");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 285, -1, -1));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 283, -1, -1));
 
         organizationEmpJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         organizationEmpJComboBox.addActionListener(new java.awt.event.ActionListener() {
@@ -115,11 +117,17 @@ public class AccountingUnitManageEmployeeJPanel extends javax.swing.JPanel {
                 organizationEmpJComboBoxActionPerformed(evt);
             }
         });
-        jPanel1.add(organizationEmpJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(231, 285, 250, 29));
+        add(organizationEmpJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(231, 278, 200, 29));
 
         jLabel2.setText("Name");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(145, 350, -1, -1));
-        jPanel1.add(nameJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(231, 344, 250, 29));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(145, 343, -1, -1));
+
+        nameJTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nameJTextFieldActionPerformed(evt);
+            }
+        });
+        add(nameJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(231, 337, 200, 29));
 
         addJButton.setText("Create Employee");
         addJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -127,30 +135,15 @@ public class AccountingUnitManageEmployeeJPanel extends javax.swing.JPanel {
                 addJButtonActionPerformed(evt);
             }
         });
-        jPanel1.add(addJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(231, 403, 250, -1));
+        add(addJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(231, 396, 200, -1));
 
         jLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel4.setText("MANAGE ACCOUNTING EMPLOYEE");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(111, 20, 440, 35));
+        jLabel4.setText("EMERGENCY MANAGE EMPLOYEE");
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 23, -1, 31));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/accounting.png"))); // NOI18N
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, -4, 800, 610));
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 805, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 606, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/emergencyadmin.jpg"))); // NOI18N
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(-2, -2, 810, 600));
     }// </editor-fold>//GEN-END:initComponents
 
     private void organizationJComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_organizationJComboBoxActionPerformed
@@ -159,31 +152,19 @@ public class AccountingUnitManageEmployeeJPanel extends javax.swing.JPanel {
             populateTable(organization);
         }
     }//GEN-LAST:event_organizationJComboBoxActionPerformed
-     private void populateTable(Organization organization) {
-       //To change body of generated methods, choose Tools | Templates.
-       DefaultTableModel model = (DefaultTableModel) organizationJTable.getModel();
 
-        model.setRowCount(0);
-
-        for (Employee employee : organization.getEmployeeDirectory().getEmployeeList()) {
-            Object[] row = new Object[2];
-            row[0] = employee.getId();
-            row[1] = employee.getName();
-            model.addRow(row);
-        }
-       
-    }
-    public void populateOrganizationComboBox() {
+     public void populateOrganizationComboBox() {
         organizationJComboBox.removeAllItems();
 
         for (Organization organization : organizationDirectory.getOrganizationList()) {
-            if (organization instanceof PatientOrganization) {
-                continue;
-            } else {
+//            if (organization instanceof PatientOrganization) {
+//                continue;
+//            } else {
                 organizationJComboBox.addItem(organization);
-            }
+          //  }
         }
     }
+
     public void populateOrganizationEmpComboBox() {
         organizationEmpJComboBox.removeAllItems();
 //        for (Organization organization : organizationDir.getOrganizationList()){
@@ -199,19 +180,44 @@ public class AccountingUnitManageEmployeeJPanel extends javax.swing.JPanel {
             organizationEmpJComboBox.addItem(organization);
         }
     }
+     private void populateTable(Organization organization) {
+       //To change body of generated methods, choose Tools | Templates.
+       
+       DefaultTableModel model = (DefaultTableModel) organizationJTable.getModel();
+
+        model.setRowCount(0);
+
+        for (Employee employee : organization.getEmployeeDirectory().getEmployeeList()) {
+            Object[] row = new Object[2];
+            row[0] = employee.getId();
+            row[1] = employee.getName();
+            model.addRow(row);
+        }
+//      organizationJTable.setBackground(Color.yellow);
+//      organizationJTable.setForeground(Color.white);
+      JTableHeader tableHeader = organizationJTable.getTableHeader();
+      tableHeader.setBackground(Color.BLACK);
+      tableHeader.setForeground(Color.blue);
+      JFrame frame = new JFrame();
+       
+    }
     private void organizationEmpJComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_organizationEmpJComboBoxActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_organizationEmpJComboBoxActionPerformed
 
     private void addJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addJButtonActionPerformed
 
-        Organization organization = (Organization)organizationEmpJComboBox.getSelectedItem();
+        Organization organization = (Organization) organizationEmpJComboBox.getSelectedItem();
         String name = nameJTextField.getText();
 
         organization.getEmployeeDirectory().createEmployee(name);
         nameJTextField.setText("");
         populateTable(organization);
     }//GEN-LAST:event_addJButtonActionPerformed
+
+    private void nameJTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nameJTextFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_nameJTextFieldActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -221,11 +227,12 @@ public class AccountingUnitManageEmployeeJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField nameJTextField;
     private javax.swing.JComboBox organizationEmpJComboBox;
     private javax.swing.JComboBox organizationJComboBox;
     private javax.swing.JTable organizationJTable;
     // End of variables declaration//GEN-END:variables
+
+   
 }

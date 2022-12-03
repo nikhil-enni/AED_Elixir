@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userInterface.accountUnitAdminArea;
+package userinterface.EmergencyUnitAdminArea;
 
 import Business.EcoSystem;
 import Business.Employee.Employee;
 import Business.Enterprise.Enterprise;
+import Business.Organization.AmbulanceOrganization;
 import Business.Organization.Organization;
 import Business.Role.Role;
 import Business.UserAccount.UserAccount;
@@ -17,20 +18,18 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author vaishnaviyadamreddy
- *
+ * @author sri_sai_nikhil_enni
  */
-public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
+public class EmergencyUnitManageUsersJPanel extends javax.swing.JPanel {
 
     /**
-     * Creates new form AccountUnitManageUsersJPanel
+     * Creates new form EmergencyUnitManageUsersJPanel
      */
     
      private JPanel userContainer;
     private Enterprise enterprise;
     private EcoSystem ecosystem;
-    
-    public AccountUnitManageUsersJPanel(JPanel userContainer,Enterprise enterprise,EcoSystem ecosystem) {
+    public EmergencyUnitManageUsersJPanel(JPanel userContainer,Enterprise enterprise,EcoSystem ecosystem) {
         initComponents();
         this.enterprise = enterprise;
         this.userContainer = userContainer;
@@ -38,8 +37,11 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
         populateOrgComboBox();
        // employeeJComboBox.removeAllItems();
         populateData();
+        
+        
     }
-
+    
+    
     public void populateOrgComboBox(){
        orgJComboBox.removeAllItems();
         for(Organization organization :enterprise.getOrganizationDirectory().getOrganizationList() ){
@@ -72,6 +74,7 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
 
         for (Organization organization : enterprise.getOrganizationDirectory().getOrganizationList()) {
             for (UserAccount ua : organization.getUserAccountDirectory().getUserAccountList()) {
+                
                 Object row[] = new Object[2];
                 row[0] = ua;
                 row[1] = ua.getRole();
@@ -88,8 +91,6 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jDialog1 = new javax.swing.JDialog();
-        jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         userJTable = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
@@ -106,20 +107,8 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
         createUserJButton = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout jDialog1Layout = new javax.swing.GroupLayout(jDialog1.getContentPane());
-        jDialog1.getContentPane().setLayout(jDialog1Layout);
-        jDialog1Layout.setHorizontalGroup(
-            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        jDialog1Layout.setVerticalGroup(
-            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
-
+        setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         userJTable.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         userJTable.setForeground(new java.awt.Color(25, 56, 82));
@@ -148,39 +137,36 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
         });
         userJTable.setSelectionBackground(new java.awt.Color(56, 90, 174));
         jScrollPane1.setViewportView(userJTable);
-        if (userJTable.getColumnModel().getColumnCount() > 0) {
-            userJTable.getColumnModel().getColumn(0).setHeaderValue("User Name");
-            userJTable.getColumnModel().getColumn(1).setHeaderValue("Role");
-        }
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 93, 500, 179));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 76, 500, 188));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
-        jLabel1.setText("MANAGE USER");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, 200, 26));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel1.setText("EMERGENCY MANAGE USER");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 20, 360, 26));
 
-        jLabel2.setText("Organization:");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 308, 116, 24));
+        jLabel2.setText("Organization");
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 294, -1, 24));
 
-        jLabel3.setText("Role:");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 395, 116, 24));
+        jLabel3.setText("Role");
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 408, -1, 24));
 
-        jLabel4.setText("Password:");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 485, 116, 24));
+        jLabel4.setText("Password");
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(121, 522, -1, 24));
 
-        jLabel5.setText("Employee:");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 350, 70, 24));
+        jLabel5.setText("Employee");
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 351, -1, 24));
 
-        jLabel6.setText("UserName:");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 441, 116, 24));
+        jLabel6.setText("UserName");
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(116, 466, -1, 24));
+        add(txtUserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 465, 200, -1));
 
-        txtUserName.addActionListener(new java.awt.event.ActionListener() {
+        txtPassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtUserNameActionPerformed(evt);
+                txtPasswordActionPerformed(evt);
             }
         });
-        jPanel1.add(txtUserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(294, 440, 228, -1));
-        jPanel1.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(294, 484, 228, -1));
+        add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 521, 200, -1));
 
         orgJComboBox.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         orgJComboBox.setForeground(new java.awt.Color(25, 56, 82));
@@ -190,7 +176,7 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
                 orgJComboBoxActionPerformed(evt);
             }
         });
-        jPanel1.add(orgJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(294, 305, 228, -1));
+        add(orgJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 294, 200, -1));
 
         employeeJCombo.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         employeeJCombo.setForeground(new java.awt.Color(25, 56, 82));
@@ -200,7 +186,7 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
                 employeeJComboActionPerformed(evt);
             }
         });
-        jPanel1.add(employeeJCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(294, 350, 228, -1));
+        add(employeeJCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 351, 200, -1));
 
         roleJComboBox.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         roleJComboBox.setForeground(new java.awt.Color(25, 56, 82));
@@ -210,8 +196,9 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
                 roleJComboBoxActionPerformed(evt);
             }
         });
-        jPanel1.add(roleJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(294, 395, 228, -1));
+        add(roleJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 408, 200, -1));
 
+        createUserJButton.setBackground(new java.awt.Color(255, 255, 255));
         createUserJButton.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         createUserJButton.setForeground(new java.awt.Color(25, 56, 82));
         createUserJButton.setText("Create");
@@ -220,12 +207,10 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
                 createUserJButtonActionPerformed(evt);
             }
         });
-        jPanel1.add(createUserJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(294, 546, 210, -1));
+        add(createUserJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 577, 200, -1));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/accounting.png"))); // NOI18N
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 800, 600));
-
-        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 1, 800, 600));
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/emergencyadmin.jpg"))); // NOI18N
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, -4, 850, 670));
     }// </editor-fold>//GEN-END:initComponents
 
     private void orgJComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_orgJComboBoxActionPerformed
@@ -233,6 +218,7 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
         if (organization != null){
             populateEmployeeComboBox(organization);
             populateRoleComboBox(organization);
+             
         }
     }//GEN-LAST:event_orgJComboBoxActionPerformed
 
@@ -252,7 +238,9 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
             if(ecosystem.checkIfUserIsUnique(userName)){
                 Employee employee = (Employee) employeeJCombo.getSelectedItem();
                 Role role = (Role) roleJComboBox.getSelectedItem();
+                System.out.println(role.toString());
                 organization.getUserAccountDirectory().createUserAccount(userName, password, employee, role);
+                
                 populateData();
                 JOptionPane.showMessageDialog(null, "User account Created!");
                 txtUserName.setText("");
@@ -264,17 +252,17 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
         } else{
             JOptionPane.showMessageDialog(null, "Enter all fields!");
         }
+
     }//GEN-LAST:event_createUserJButtonActionPerformed
 
-    private void txtUserNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUserNameActionPerformed
+    private void txtPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPasswordActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtUserNameActionPerformed
+    }//GEN-LAST:event_txtPasswordActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton createUserJButton;
     private javax.swing.JComboBox employeeJCombo;
-    private javax.swing.JDialog jDialog1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -282,7 +270,6 @@ public class AccountUnitManageUsersJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JComboBox orgJComboBox;
     private javax.swing.JComboBox roleJComboBox;

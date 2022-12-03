@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.DoctorWorkArea;
+package userInterface.doctorWorkArea;
 import Business.Medicine.Prescription;
 import Business.Medicine.PrescriptionList;
 import Business.EcoSystem;

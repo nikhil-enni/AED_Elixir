@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userInterface.accountUnitAdminArea;
+package userinterface.EmergencyUnitAdminArea;
 
 import userinterface.MedicineUnitAdminArea.*;
 import Business.EcoSystem;
@@ -18,7 +18,7 @@ import userinterface.SystemAdminWorkArea.*;
  * @author amisha03
  */
 
-public class AccountingUnitAdminWorkAreaJPanel extends javax.swing.JPanel {
+public class EmergencyUnitAdminWorkAreaJPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form ManageAdminWorkAreaJPanel
@@ -26,7 +26,7 @@ public class AccountingUnitAdminWorkAreaJPanel extends javax.swing.JPanel {
     JPanel userProcessContainer;
     Enterprise enterprise;
     EcoSystem ecosystem;
-    public AccountingUnitAdminWorkAreaJPanel(JPanel userProcessContainer, Enterprise enterprise, EcoSystem ecosystem) {
+    public EmergencyUnitAdminWorkAreaJPanel(JPanel userProcessContainer, Enterprise enterprise, EcoSystem ecosystem) {
         initComponents();
           this.userProcessContainer = userProcessContainer;
         this.enterprise = enterprise;
@@ -53,7 +53,7 @@ public class AccountingUnitAdminWorkAreaJPanel extends javax.swing.JPanel {
         jPanel1.setBackground(new java.awt.Color(255, 102, 102));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel1.setText("ACCOUNTING ADMIN");
+        jLabel1.setText("EMERGENCY ADMIN");
 
         btnManageOrganisation.setFont(new java.awt.Font("Segoe UI", 1, 11)); // NOI18N
         btnManageOrganisation.setText("MANAGE ORGANISATION");
@@ -136,24 +136,24 @@ public class AccountingUnitAdminWorkAreaJPanel extends javax.swing.JPanel {
 
     private void btnManageOrganisationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageOrganisationActionPerformed
         // TODO add your handling code here:
-       AccountingUnitManageOrganizationsJPanel aumjp = new AccountingUnitManageOrganizationsJPanel(viewJPanel, enterprise, ecosystem);
-        viewJPanel.add("EmergencyUnitManageOrganizationsJPanel",aumjp);
+        EmergencyUnitManageOrganizationsJPanel muajp = new EmergencyUnitManageOrganizationsJPanel(viewJPanel, enterprise, ecosystem);
+        viewJPanel.add("EmergencyUnitManageOrganizationsJPanel",muajp);
         CardLayout layout = (CardLayout) viewJPanel.getLayout();
         layout.next(viewJPanel);
     }//GEN-LAST:event_btnManageOrganisationActionPerformed
 
     private void btnManageEmployeeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageEmployeeActionPerformed
         // TODO add your handling code here:
-        AccountingUnitManageEmployeeJPanel aumejp = new AccountingUnitManageEmployeeJPanel(viewJPanel, enterprise, ecosystem);
-        viewJPanel.add("EmergencyUnitManageUsersJPanel",aumejp);
+         EmergencyUnitManageEmployeeJPanel mujp = new EmergencyUnitManageEmployeeJPanel(viewJPanel, enterprise, ecosystem);
+        viewJPanel.add("EmergencyUnitManageUsersJPanel",mujp);
         CardLayout layout = (CardLayout) viewJPanel.getLayout();
         layout.next(viewJPanel);
     }//GEN-LAST:event_btnManageEmployeeActionPerformed
 
     private void btnManageUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageUserActionPerformed
         // TODO add your handling code here:
-        AccountUnitManageUsersJPanel aumujp = new AccountUnitManageUsersJPanel(viewJPanel, enterprise, ecosystem);
-        viewJPanel.add("EmergencyUnitManageUsersJPanel",aumujp);
+         EmergencyUnitManageUsersJPanel mujp = new EmergencyUnitManageUsersJPanel(viewJPanel, enterprise, ecosystem);
+        viewJPanel.add("EmergencyUnitManageUsersJPanel",mujp);
         CardLayout layout = (CardLayout) viewJPanel.getLayout();
         layout.next(viewJPanel);
     }//GEN-LAST:event_btnManageUserActionPerformed
