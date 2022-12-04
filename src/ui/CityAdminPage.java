@@ -43,7 +43,7 @@ public class CityAdminPage extends javax.swing.JPanel {
         jZipcode = new javax.swing.JTextField();
         jComSave = new javax.swing.JButton();
         jComClear = new javax.swing.JButton();
-        jCityList = new javax.swing.JComboBox<>();
+        jCityList = new javax.swing.JComboBox<String>();
         jCityForm = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jCityName = new javax.swing.JTextField();
@@ -63,7 +63,7 @@ public class CityAdminPage extends javax.swing.JPanel {
         jHosEmail = new javax.swing.JTextField();
         jHosSave = new javax.swing.JButton();
         jHosClear = new javax.swing.JButton();
-        jHosComList = new javax.swing.JComboBox<>();
+        jHosComList = new javax.swing.JComboBox<String>();
 
         jLabel8.setText("Community Name:");
 
@@ -89,7 +89,7 @@ public class CityAdminPage extends javax.swing.JPanel {
                 .addGroup(jCommunityFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jCommunityFormLayout.createSequentialGroup()
                         .addComponent(jComSave)
-                        .addGap(18, 18, 18)
+                        .addGap(28, 28, 28)
                         .addComponent(jComClear))
                     .addGroup(jCommunityFormLayout.createSequentialGroup()
                         .addGroup(jCommunityFormLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -194,7 +194,7 @@ public class CityAdminPage extends javax.swing.JPanel {
 
         jHosClear.setText("Clear");
 
-        jHosComList.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jHosComList.setModel(new javax.swing.DefaultComboBoxModel<String>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         javax.swing.GroupLayout jHospitalFormLayout = new javax.swing.GroupLayout(jHospitalForm);
         jHospitalForm.setLayout(jHospitalFormLayout);
