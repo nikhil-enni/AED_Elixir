@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package business.equipment;
+package business.role;
 
 import business.EcoSystem;
 import business.enterprise.Enterprise;
@@ -12,21 +12,22 @@ import business.organization.Organization;
 import business.userAccount.UserAccount;
 import javax.swing.JPanel;
 import userInterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
-import userInterface.EquipmentUnitAdminArea.EquipmentUnitAdminWorkArea2JPanel;
-import userInterface.EquipmentWorkArea.EquipmentWorkAreaJPanel;
+import userInterface.MedicineUnitAdminArea.MedicineUnitAdminWorkAreaJPanel;
+import userInterface.MedicineUnitArea.PharmacyWorkArea;
+import userInterface.MedicineUnitArea.PharmacyWorkArea2;
 
 /**
  *
- * @author amisha03
+ * @author vaishnaviyadamreddy
  */
-public class EquipmentAdmin extends Role {
-    @Override
+public class MedicineUser extends Role{
+     @Override
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account,Organization organization,Enterprise enterprise,Network network, EcoSystem business) {
-        return new EquipmentWorkAreaJPanel( userProcessContainer,account,network,enterprise,organization, business);
+        return new PharmacyWorkArea( userProcessContainer,account,organization,enterprise,network, business);
     }
     
      @Override
     public String toString(){
-        return (RoleType.EquipmentAdmin.getValue());
+        return (RoleType.MedicineUser.getValue());
     }
 }

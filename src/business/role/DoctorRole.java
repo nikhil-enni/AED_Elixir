@@ -15,27 +15,29 @@ import business.organization.Organization;
 import business.userAccount.UserAccount;
 //import userinterface.CustomerRole.CustomerAreaJPanel;
 import javax.swing.JPanel;
-import userInterface.Receptionist.PatientListJPanel;
+import userInterface.DoctorWorkArea.DoctorWorkAreaJPanel;
+
+import userInterface.DoctorWorkArea.EmergencyDoctorWorkAreaJPanel;
 
 /**
  *
- * @author sri_sai_nikhil_enni
+ * @author amisha03
  */
+public class DoctorRole extends Role{
 
-public class ReceptionistRole extends Role{
-
-    @Override
-      public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account,
-              Organization organization,Enterprise enterprise,
-              Network network, EcoSystem business) {
-        return new  PatientListJPanel(userProcessContainer,network,organization,business);
+    
+    public JPanel createWorkArea(JPanel userProcessContainer, 
+            UserAccount account,Organization organization,Enterprise enterprise,Network network,
+            EcoSystem business) {
+        return new DoctorWorkAreaJPanel(userProcessContainer, account,organization,enterprise,network,business);
        // return null;
         //return new CustomerAreaJPanel(userProcessContainer, account,business);
     }
     
-       @Override
+     @Override
     public String toString(){
-        return (RoleType.ReceptionistRole.getValue());
+        return (RoleType.DoctorRole.getValue());
     }
+    
     
 }

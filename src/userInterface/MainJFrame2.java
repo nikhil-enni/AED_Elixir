@@ -5,16 +5,16 @@
 package userInterface;
 import org.apache.log4j.Logger;
 //import Business.Customer.CustomerDirectory;
-import Business.EcoSystem;
-import Business.DB4OUtil.DB4OUtil;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.PatientList;
-import Business.Network.Network;
+import business.EcoSystem;
+import business.DB4OUtil.DB4OUtil;
+import business.enterprise.Enterprise;
+import business.medicalEmployment.PatientList;
+import business.network.Network;
 //import Business.DeliveryMan.DeliveryManDirectory;
 
-import Business.Organization.Organization;
+import business.organization.Organization;
 //import Business.Restaurant.RestaurantDirectory;
-import Business.UserAccount.UserAccount;
+import business.userAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.Container;
 import java.awt.Image;
@@ -22,7 +22,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import userinterface.Receptionist.CreatePatientJPanel;
+import userInterface.Receptionist.CreatePatientJPanel;
 
 /**
  *
