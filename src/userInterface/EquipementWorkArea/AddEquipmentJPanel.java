@@ -16,7 +16,7 @@ import userinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
 
 /**
  *
- * @author essni
+ * @author amisha03
  */
 public class AddEquipmentJPanel extends javax.swing.JPanel {
 
