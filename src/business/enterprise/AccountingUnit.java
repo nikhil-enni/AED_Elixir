@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author singh
+ * @author vaishnaviyadamreddy
  */
 public class AccountingUnit extends Enterprise {
     public AccountingUnit(String name) {

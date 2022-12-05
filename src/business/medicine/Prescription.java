@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author vgout
+ * @author vaishnaviyadamreddy
  */
 public class Prescription {
      private int NoofTimesInaday;

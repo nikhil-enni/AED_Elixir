@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Sandeep
+ * @author sri_sai_nikhil_enni
  */
 public class Doctor {
     private String patientName;
