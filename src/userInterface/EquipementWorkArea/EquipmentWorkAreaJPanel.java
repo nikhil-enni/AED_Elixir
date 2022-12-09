@@ -5,14 +5,14 @@
  */
 package userInterface.EquipementWorkArea;
 
-import Business.EcoSystem;
-import Business.Employee.Employee;
-import Business.Enterprise.Enterprise;
-import Business.Equipment.Equipment;
-import Business.Equipment.EquipmentList;
-import Business.Network.Network;
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
+import business.EcoSystem;
+import business.Employee.Employee;
+import business.Enterprise.Enterprise;
+import business.Equipment.Equipment;
+import business.Equipment.EquipmentList;
+import business.Network.Network;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;

@@ -5,18 +5,18 @@
  */
 package userinterface.MedicineUnitArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Medicine.Medicine;
-import Business.Medicine.MedicineList;
-import Business.Network.Network;
-import Business.Organization.MedicineOrganization;
-import Business.Organization.Organization;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.Medicine.Medicine;
+import business.Medicine.MedicineList;
+import business.Network.Network;
+import business.Organization.MedicineOrganization;
+import business.Organization.Organization;
 
-import Business.UserAccount.UserAccount;
+import business.UserAccount.UserAccount;
 
 
-import Business.WorkQueue.WorkRequest;
+import business.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;

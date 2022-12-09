@@ -5,19 +5,19 @@
  */
 package userInterface.accountUnitAdminArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Organization.BillingOrganization;
-import Business.Organization.Organization;
-import Business.Organization.Organization.Type;
-import Business.Organization.OrganizationDirectory;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.Organization.BillingOrganization;
+import business.Organization.Organization;
+import business.Organization.Organization.Type;
+import business.Organization.OrganizationDirectory;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
-import Business.Utils.Validation;
+import business.Utils.Validation;
 
 /**
  *

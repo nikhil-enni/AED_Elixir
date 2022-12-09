@@ -5,11 +5,11 @@
  */
 package userinterface.MedicineUnitAdminArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Organization.Organization;
-import Business.Organization.Organization.Type;
-import Business.Organization.OrganizationDirectory;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
+import business.Organization.Organization.Type;
+import business.Organization.OrganizationDirectory;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;

@@ -5,11 +5,11 @@
  */
 package business.role;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.Network.Network;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
 import javax.swing.JPanel;
 import userinterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
 import userinterface.EquipmentUnitAdminArea.EquipmentUnitAdminWorkArea2JPanel;

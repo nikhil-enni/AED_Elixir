@@ -6,13 +6,13 @@
 package userinterface.ManagementUnitAdminArea;
 
 import userinterface.EmergencyUnitAdminArea.*;
-import Business.EcoSystem;
-import Business.Employee.Employee;
-import Business.Enterprise.Enterprise;
-import Business.Organization.DoctorOrganization;
-import Business.Organization.Organization;
-import Business.Organization.OrganizationDirectory;
-import Business.Organization.PatientOrganization;
+import business.EcoSystem;
+import business.Employee.Employee;
+import business.Enterprise.Enterprise;
+import business.Organization.DoctorOrganization;
+import business.Organization.Organization;
+import business.Organization.OrganizationDirectory;
+import business.Organization.PatientOrganization;
 import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;

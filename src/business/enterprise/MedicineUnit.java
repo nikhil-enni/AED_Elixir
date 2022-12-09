@@ -5,9 +5,9 @@
  */
 package business.enterprise;
 
-import Business.Role.BillingAdminRole;
-import Business.Role.MedicineAdmin;
-import Business.Role.Role;
+import business.Role.BillingAdminRole;
+import business.Role.MedicineAdmin;
+import business.Role.Role;
 import java.util.ArrayList;
 
 /**

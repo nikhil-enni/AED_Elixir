@@ -4,8 +4,8 @@
  */
 package business.userAccount;
 
-import Business.Employee.Employee;
-import Business.Role.Role;
+import business.Employee.Employee;
+import business.Role.Role;
 import java.util.ArrayList;
 
 /**

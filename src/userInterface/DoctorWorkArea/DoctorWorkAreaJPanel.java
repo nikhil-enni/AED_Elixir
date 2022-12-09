@@ -5,16 +5,16 @@
  */
 package userInterface.doctorWorkArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.Doctor;
-import Business.MedicalEmployment.Patient;
-import Business.Network.Network;
-import Business.Organization.DoctorOrganization;
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.DoctorCheckUpWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.Doctor;
+import business.MedicalEmployment.Patient;
+import business.Network.Network;
+import business.Organization.DoctorOrganization;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
+import business.WorkQueue.DoctorCheckUpWorkRequest;
+import business.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.util.Date;
 import javax.swing.JOptionPane;

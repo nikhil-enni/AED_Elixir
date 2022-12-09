@@ -5,16 +5,16 @@
  */
 package userinterface.SystemAdminWorkArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Equipment.Equipment;
-import Business.MedicalEmployment.Patient;
-import Business.MedicalEmployment.PatientList;
-import Business.Network.Network;
-import Business.Organization.EmergencyOrganization;
-import Business.Organization.Organization;
-import Business.WorkQueue.EmergencyPatientRequest;
-import Business.WorkQueue.WorkRequest;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.Equipment.Equipment;
+import business.MedicalEmployment.Patient;
+import business.MedicalEmployment.PatientList;
+import business.Network.Network;
+import business.Organization.EmergencyOrganization;
+import business.Organization.Organization;
+import business.WorkQueue.EmergencyPatientRequest;
+import business.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.awt.Color;
 import java.text.DecimalFormat;

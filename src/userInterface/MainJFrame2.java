@@ -4,17 +4,17 @@
  */
 package userInterface;
 import org.apache.log4j.Logger;
-//import Business.Customer.CustomerDirectory;
-import Business.EcoSystem;
-import Business.DB4OUtil.DB4OUtil;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.PatientList;
-import Business.Network.Network;
-//import Business.DeliveryMan.DeliveryManDirectory;
+//import business.Customer.CustomerDirectory;
+import business.EcoSystem;
+import business.DB4OUtil.DB4OUtil;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.PatientList;
+import business.Network.Network;
+//import business.DeliveryMan.DeliveryManDirectory;
 
-import Business.Organization.Organization;
-//import Business.Restaurant.RestaurantDirectory;
-import Business.UserAccount.UserAccount;
+import business.Organization.Organization;
+//import business.Restaurant.RestaurantDirectory;
+import business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.Container;
 import java.awt.Image;
@@ -55,7 +55,7 @@ public class MainJFrame2 extends javax.swing.JFrame {
 //        customerDirectory = new CustomerDirectory();
 //        restaurantDirectory = new RestaurantDirectory();
 //        deliveryManDirectory = new DeliveryManDirectory();
-        ImageIcon ii = new ImageIcon("D:\\Northeastern_University\\Wagh_essni_001839964\\Assignment\\Assignment_4\\src\\Business\\Images\\folder\\foodmitho.jpg");
+        ImageIcon ii = new ImageIcon("D:\\Northeastern_University\\Wagh_essni_001839964\\Assignment\\Assignment_4\\src\\business\\Images\\folder\\foodmitho.jpg");
         
        Image image = ii.getImage().getScaledInstance(jPanel2.getWidth(), jPanel2.getHeight(), Image.SCALE_SMOOTH);
         jLabel4.setIcon(new ImageIcon(image));
@@ -121,7 +121,7 @@ public class MainJFrame2 extends javax.swing.JFrame {
         });
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/download2.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/download2.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -179,7 +179,7 @@ public class MainJFrame2 extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(121, 167, 211));
 
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/foodmitho.jpg"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/foodmitho.jpg"))); // NOI18N
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);

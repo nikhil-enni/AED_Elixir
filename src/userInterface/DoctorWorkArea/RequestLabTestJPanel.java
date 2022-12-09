@@ -5,19 +5,19 @@
  */
 package userInterface.doctorWorkArea;
 
-import Business.EcoSystem;
-import Business.Employee.Employee;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.Doctor;
-import Business.MedicalEmployment.Patient;
-import Business.Network.Network;
-//import Business.Mail.Mail;
-import Business.Organization.LabOrganization;
-import Business.Organization.Organization;
+import business.EcoSystem;
+import business.Employee.Employee;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.Doctor;
+import business.MedicalEmployment.Patient;
+import business.Network.Network;
+//import business.Mail.Mail;
+import business.Organization.LabOrganization;
+import business.Organization.Organization;
 import business.userAccount.UserAccount;
-import Business.WorkQueue.LabTestWorkRequest;
-import Business.WorkQueue.LabWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import business.WorkQueue.LabTestWorkRequest;
+import business.WorkQueue.LabWorkRequest;
+import business.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.util.Date;

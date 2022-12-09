@@ -49,7 +49,7 @@ public class ManageAdminWorkAreaJPanel extends javax.swing.JPanel {
         btnManageEnterprise.setFont(new java.awt.Font("Segoe UI", 1, 11)); // NOI18N
         btnManageEnterprise.setText("MANAGE ENTERPRISE");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/Network.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/Network.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

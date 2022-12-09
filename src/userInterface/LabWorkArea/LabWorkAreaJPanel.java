@@ -5,17 +5,17 @@
  */
 package userInterface.LabWorkArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Equipment.Equipment;
-import Business.Network.Network;
-import Business.Organization.EmergencyOrganization;
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.BillingWorkRequest;
-import Business.WorkQueue.EmergencyPatientRequest;
-import Business.WorkQueue.LabWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.Equipment.Equipment;
+import business.Network.Network;
+import business.Organization.EmergencyOrganization;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
+import business.WorkQueue.BillingWorkRequest;
+import business.WorkQueue.EmergencyPatientRequest;
+import business.WorkQueue.LabWorkRequest;
+import business.WorkQueue.WorkRequest;
 import java.util.Date;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

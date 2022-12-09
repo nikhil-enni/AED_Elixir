@@ -4,23 +4,23 @@
  * and open the template in the editor.
  */
 package userInterface.doctorWorkArea;
-import Business.Medicine.Prescription;
-import Business.Medicine.PrescriptionList;
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.Doctor;
-import Business.MedicalEmployment.Patient;
-import Business.Medicine.Medicine;
-import Business.Network.Network;
-import Business.Organization.DoctorOrganization;
-import Business.Organization.MedicineOrganization;
+import business.Medicine.Prescription;
+import business.Medicine.PrescriptionList;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.Doctor;
+import business.MedicalEmployment.Patient;
+import business.Medicine.Medicine;
+import business.Network.Network;
+import business.Organization.DoctorOrganization;
+import business.Organization.MedicineOrganization;
 
-import Business.Organization.Organization;
-/////import Business.Organization.PharmacyOrganization;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.DoctorWorkRequest;
-//import Business.WorkQueue.PharmacyWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import business.Organization.Organization;
+/////import business.Organization.PharmacyOrganization;
+import business.UserAccount.UserAccount;
+import business.WorkQueue.DoctorWorkRequest;
+//import business.WorkQueue.PharmacyWorkRequest;
+import business.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -5,9 +5,9 @@
  */
 package userInterface.EquipementWorkArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Equipment.EquipmentList;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.Equipment.EquipmentList;
 import java.awt.CardLayout;
 import java.awt.Component;
 import javax.swing.JOptionPane;

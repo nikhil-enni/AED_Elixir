@@ -5,13 +5,13 @@
  */
 package userInterface;
 
-import Business.DB4OUtil.DB4OUtil;
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.PatientList;
-import Business.Network.Network;
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
+import business.DB4OUtil.DB4OUtil;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.PatientList;
+import business.Network.Network;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

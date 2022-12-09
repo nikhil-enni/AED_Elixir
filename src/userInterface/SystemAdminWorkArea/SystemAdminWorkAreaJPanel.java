@@ -5,11 +5,11 @@
  */
 package userinterface.SystemAdminWorkArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.PatientList;
-import Business.Network.Network;
-import Business.Organization.Organization;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.PatientList;
+import business.Network.Network;
+import business.Organization.Organization;
 import java.awt.CardLayout;
 import java.util.ArrayList;
 import javax.swing.JPanel;
@@ -134,7 +134,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/Network.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/Network.png"))); // NOI18N
 
         lblSelectedNode.setBackground(new java.awt.Color(255, 102, 102));
         lblSelectedNode.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N

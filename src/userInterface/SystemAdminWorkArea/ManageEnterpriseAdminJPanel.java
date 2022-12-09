@@ -5,17 +5,17 @@
  */
 package userinterface.SystemAdminWorkArea;
 
-import Business.EcoSystem;
-import Business.Employee.Employee;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Role.AccountingAdminRole;
-import Business.Role.AdminRole;
-import Business.Role.EmergencyAdminRole;
-import Business.Role.EquipmentAdmin;
-import Business.Role.ManagementAdminRole;
-import Business.Role.MedicineAdmin;
-import Business.UserAccount.UserAccount;
+import business.EcoSystem;
+import business.Employee.Employee;
+import business.Enterprise.Enterprise;
+import business.Network.Network;
+import business.Role.AccountingAdminRole;
+import business.Role.AdminRole;
+import business.Role.EmergencyAdminRole;
+import business.Role.EquipmentAdmin;
+import business.Role.ManagementAdminRole;
+import business.Role.MedicineAdmin;
+import business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.Component;
 import javax.swing.JOptionPane;

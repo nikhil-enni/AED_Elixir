@@ -5,8 +5,8 @@
  */
 package userinterface.ManagementUnitAdminArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 import userinterface.SystemAdminWorkArea.*;
@@ -80,7 +80,7 @@ public class ManagementUnit1AdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/ManagementAdmin.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/ManagementAdmin.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

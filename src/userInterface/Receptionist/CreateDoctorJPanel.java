@@ -5,20 +5,20 @@
  */
 package userinterface.Receptionist;
 
-import Business.EcoSystem;
-import Business.Employee.Employee;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.Doctor;
-import Business.MedicalEmployment.DoctorList;
-import Business.MedicalEmployment.PatientList;
-import Business.Network.Network;
-import Business.Organization.DoctorOrganization;
-import Business.Organization.Organization;
-import Business.Organization.PatientOrganization;
-import Business.Role.DoctorRole;
-import Business.Role.EmergencyDoctorRole;
-import Business.Role.PatientRole;
-import Business.UserAccount.UserAccount;
+import business.EcoSystem;
+import business.Employee.Employee;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.Doctor;
+import business.MedicalEmployment.DoctorList;
+import business.MedicalEmployment.PatientList;
+import business.Network.Network;
+import business.Organization.DoctorOrganization;
+import business.Organization.Organization;
+import business.Organization.PatientOrganization;
+import business.Role.DoctorRole;
+import business.Role.EmergencyDoctorRole;
+import business.Role.PatientRole;
+import business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.util.Date;
@@ -188,7 +188,7 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 377, -1, -1));
         jPanel1.add(chkboxEmeDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 377, 209, -1));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/doctor-clinic-illustration_1270-69.jpg"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/doctor-clinic-illustration_1270-69.jpg"))); // NOI18N
         jLabel8.setText("jLabel8");
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 6, 134, 117));
         jPanel1.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 153, 209, -1));

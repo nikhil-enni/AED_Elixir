@@ -6,7 +6,7 @@
 package userinterface.Receptionist;
 
 import userinterface.Patient.*;
-import Business.MedicalEmployment.Patient;
+import business.MedicalEmployment.Patient;
 
 /**
  *

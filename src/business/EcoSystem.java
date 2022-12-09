@@ -6,16 +6,16 @@
 package business;
 
 
-//import Business.Customer.CustomerDirectory;
-//import Business.DeliveryMan.DeliveryManDirectory;
-//import Business.Restaurant.RestaurantDirectory;
+//import business.Customer.CustomerDirectory;
+//import business.DeliveryMan.DeliveryManDirectory;
+//import business.Restaurant.RestaurantDirectory;
 import business.enterprise.Enterprise;
-import Business.Equipment.EquipmentList;
-import Business.MedicalEmployment.DoctorList;
-import Business.MedicalEmployment.PatientList;
-import Business.MedicalEmployment.AmbulanceList;
-import Business.Network.Network;
-import Business.Organization.Organization;
+import business.Equipment.EquipmentList;
+import business.MedicalEmployment.DoctorList;
+import business.MedicalEmployment.PatientList;
+import business.MedicalEmployment.AmbulanceList;
+import business.Network.Network;
+import business.Organization.Organization;
 import business.role.Role;
 import business.role.SystemAdminRole;
 import business.userAccount.UserAccount;
@@ -133,7 +133,7 @@ public class EcoSystem extends Organization{
 //        
 //    }
 
-    public static EcoSystem getBusiness() {
+    public static EcoSystem getbusiness() {
         return business;
     }
 

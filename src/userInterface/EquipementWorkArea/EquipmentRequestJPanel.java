@@ -5,19 +5,19 @@
  */
 package userInterface.EquipementWorkArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Equipment.Equipment;
-import Business.Network.Network;
-import Business.Organization.BillingOrganization;
-import Business.Organization.EmergencyOrganization;
-import Business.Organization.EquipmentOrganization;
-import Business.Organization.Organization;
-import Business.Organization.PatientOrganization;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.BillingWorkRequest;
-import Business.WorkQueue.EmergencyPatientRequest;
-import Business.WorkQueue.WorkRequest;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.Equipment.Equipment;
+import business.Network.Network;
+import business.Organization.BillingOrganization;
+import business.Organization.EmergencyOrganization;
+import business.Organization.EquipmentOrganization;
+import business.Organization.Organization;
+import business.Organization.PatientOrganization;
+import business.UserAccount.UserAccount;
+import business.WorkQueue.BillingWorkRequest;
+import business.WorkQueue.EmergencyPatientRequest;
+import business.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.util.Date;

@@ -5,15 +5,15 @@
  */
 package userinterface.ManagementUnitAdminArea;
 
-import Business.EcoSystem;
-import Business.Employee.Employee;
-import Business.Enterprise.Enterprise;
-import Business.Organization.AmbulanceOrganization;
-import Business.Organization.DoctorOrganization;
-import Business.Organization.Organization;
-import Business.Organization.PatientOrganization;
-import Business.Role.Role;
-import Business.UserAccount.UserAccount;
+import business.EcoSystem;
+import business.Employee.Employee;
+import business.Enterprise.Enterprise;
+import business.Organization.AmbulanceOrganization;
+import business.Organization.DoctorOrganization;
+import business.Organization.Organization;
+import business.Organization.PatientOrganization;
+import business.Role.Role;
+import business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

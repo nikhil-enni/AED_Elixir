@@ -5,9 +5,9 @@
  */
 package userinterface.SystemAdminWorkArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.Network.Network;
 import java.awt.CardLayout;
 import java.awt.Component;
 import javax.swing.JOptionPane;

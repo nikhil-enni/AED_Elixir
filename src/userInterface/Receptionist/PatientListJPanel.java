@@ -5,19 +5,19 @@
  */
 package userinterface.Receptionist;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.Doctor;
-import Business.MedicalEmployment.DoctorList;
-import Business.MedicalEmployment.Patient;
-import Business.MedicalEmployment.PatientList;
-import Business.Network.Network;
-import Business.Organization.DoctorOrganization;
-import Business.Organization.Organization;
-import Business.Organization.PatientOrganization;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.DoctorWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.Doctor;
+import business.MedicalEmployment.DoctorList;
+import business.MedicalEmployment.Patient;
+import business.MedicalEmployment.PatientList;
+import business.Network.Network;
+import business.Organization.DoctorOrganization;
+import business.Organization.Organization;
+import business.Organization.PatientOrganization;
+import business.UserAccount.UserAccount;
+import business.WorkQueue.DoctorWorkRequest;
+import business.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.awt.Component;
 import javax.swing.JOptionPane;

@@ -5,8 +5,8 @@
  */
 package userInterface.EquipmentUnitAdminArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 import userinterface.EquipmentUnitAdminArea.EquipmentUnitManageEmployeeJPanel;

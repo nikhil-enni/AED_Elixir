@@ -5,16 +5,16 @@
  */
 package userInterface.doctorWorkArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.DoctorOrganization;
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.Network.Network;
+import business.Organization.DoctorOrganization;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
 import userinterface.Ambulance.*;
-import Business.WorkQueue.EmergencyPatientRequest;
-import Business.WorkQueue.DoctorWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import business.WorkQueue.EmergencyPatientRequest;
+import business.WorkQueue.DoctorWorkRequest;
+import business.WorkQueue.WorkRequest;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;

@@ -4,15 +4,15 @@
  */
 package business.role;
 
-//import Business.Customer.CustomerDirectory;
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.PatientList;
-import Business.Network.Network;
+//import business.Customer.CustomerDirectory;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.PatientList;
+import business.Network.Network;
 
-import Business.Organization.Organization;
-//import Business.Restaurant.RestaurantDirectory;
-import Business.UserAccount.UserAccount;
+import business.Organization.Organization;
+//import business.Restaurant.RestaurantDirectory;
+import business.UserAccount.UserAccount;
 //import userinterface.RestaurantAdminRole.AdminWorkAreaJPanel;
 import javax.swing.JPanel;
 import userinterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;

@@ -5,12 +5,12 @@
  */
 package userInterface.accountUnitAdminArea;
 
-import Business.EcoSystem;
-import Business.Employee.Employee;
-import Business.Enterprise.Enterprise;
-import Business.Organization.Organization;
-import Business.Organization.OrganizationDirectory;
-import Business.Organization.PatientOrganization;
+import business.EcoSystem;
+import business.Employee.Employee;
+import business.Enterprise.Enterprise;
+import business.Organization.Organization;
+import business.Organization.OrganizationDirectory;
+import business.Organization.PatientOrganization;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 

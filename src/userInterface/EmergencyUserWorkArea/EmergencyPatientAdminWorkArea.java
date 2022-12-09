@@ -5,20 +5,20 @@
  */
 package userInterface.EmergencyUserWorkArea;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.Ambulance;
-import Business.MedicalEmployment.Doctor;
-import Business.Network.Network;
-import Business.Organization.AmbulanceOrganization;
-import Business.Organization.DoctorOrganization;
-import Business.Organization.EmergencyOrganization;
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.AmbulanceWorkRequest;
-import Business.WorkQueue.DoctorWorkRequest;
-import Business.WorkQueue.EmergencyPatientRequest;
-import Business.WorkQueue.WorkRequest;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.Ambulance;
+import business.MedicalEmployment.Doctor;
+import business.Network.Network;
+import business.Organization.AmbulanceOrganization;
+import business.Organization.DoctorOrganization;
+import business.Organization.EmergencyOrganization;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
+import business.WorkQueue.AmbulanceWorkRequest;
+import business.WorkQueue.DoctorWorkRequest;
+import business.WorkQueue.EmergencyPatientRequest;
+import business.WorkQueue.WorkRequest;
 import java.util.Date;
 import javax.swing.JComboBox;
 import javax.swing.JOptionPane;

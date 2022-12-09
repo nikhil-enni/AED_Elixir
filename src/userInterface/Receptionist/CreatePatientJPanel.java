@@ -5,17 +5,17 @@
  */
 package userinterface.Receptionist;
 
-import Business.EcoSystem;
-import Business.Employee.Employee;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.Doctor;
-import Business.MedicalEmployment.Patient;
-import Business.MedicalEmployment.PatientList;
-import Business.Network.Network;
-import Business.Organization.Organization;
-import Business.Organization.PatientOrganization;
-import Business.Role.PatientRole;
-import Business.UserAccount.UserAccount;
+import business.EcoSystem;
+import business.Employee.Employee;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.Doctor;
+import business.MedicalEmployment.Patient;
+import business.MedicalEmployment.PatientList;
+import business.Network.Network;
+import business.Organization.Organization;
+import business.Organization.PatientOrganization;
+import business.Role.PatientRole;
+import business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.net.PasswordAuthentication;
@@ -303,10 +303,10 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         jLabel17.setText("*");
         jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 220, 17, -1));
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/patient.jpg"))); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/patient.jpg"))); // NOI18N
         jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 777, -1, 150));
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/EmergencyHospitalSign.jpg"))); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/EmergencyHospitalSign.jpg"))); // NOI18N
         jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 5, -1, 77));
 
         jButton1.setText("Location");
