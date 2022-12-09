@@ -6,7 +6,11 @@ package business.employee;
 
 /**
  *
+<<<<<<< HEAD
  * @author sri_sai_nikhil_enni
+=======
+ * @author vaishanaviyadamreddy
+>>>>>>> branchA
  */
 public class Employee {
     

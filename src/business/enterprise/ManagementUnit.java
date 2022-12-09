@@ -5,14 +5,24 @@
  */
 package business.enterprise;
 
+<<<<<<< HEAD
 import business.role.MedicineAdmin;
 import business.role.PersonRole;
 import business.role.Role;
+=======
+import business.Role.MedicineAdmin;
+import business.Role.PersonRole;
+import business.Role.Role;
+>>>>>>> branchA
 import java.util.ArrayList;
 
 /**
  *
+<<<<<<< HEAD
  * @author sri_sai_nikhil_enni
+=======
+ * @author amisha03
+>>>>>>> branchA
  */
 public class ManagementUnit extends Enterprise {
     public ManagementUnit(String name){

@@ -4,8 +4,13 @@
  * and open the template in the editor.
  */
 package business.enterprise;
+<<<<<<< HEAD
 import business.organization.Organization;
 import business.organization.OrganizationDirectory;
+=======
+import business.Organization.Organization;
+import business.Organization.OrganizationDirectory;
+>>>>>>> branchA
 
 /**
  *

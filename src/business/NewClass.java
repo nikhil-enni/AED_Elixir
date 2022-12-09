@@ -6,7 +6,11 @@ package business;
 
 /**
  *
+<<<<<<< HEAD
  * @author sri_sai_nikhil_enni
+=======
+ * @author amisha03
+>>>>>>> branchA
  */
 public class NewClass {
     

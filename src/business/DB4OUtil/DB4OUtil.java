@@ -12,8 +12,13 @@ import java.lang.*;
 
 /**
  *
+<<<<<<< HEAD
  * @author amisha03
  * @author vaishnaviyadamreddy
+=======
+ * @author sri_sai_nikhil_enni
+ * @author amisha03
+>>>>>>> branchA
  */
 public class DB4OUtil {
 

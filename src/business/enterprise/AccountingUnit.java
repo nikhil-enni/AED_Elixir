@@ -12,7 +12,11 @@ import java.util.ArrayList;
 
 /**
  *
+<<<<<<< HEAD
  * @author vaishnaviyadamreddy
+=======
+ * @author amisha03
+>>>>>>> branchA
  */
 public class AccountingUnit extends Enterprise {
     public AccountingUnit(String name) {

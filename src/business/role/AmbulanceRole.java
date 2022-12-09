@@ -4,6 +4,7 @@
  */
 package business.role;
 
+<<<<<<< HEAD
 //import Business.Customer.CustomerDirectory;
 import business.EcoSystem;
 import business.enterprise.Enterprise;
@@ -20,6 +21,24 @@ import userInterface.Ambulance.EmergencyAmbulanceUserJPanel;
 /**
  *
  * @author sri_sai_nikhil_enni
+=======
+//import business.Customer.CustomerDirectory;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.PatientList;
+import business.Network.Network;
+
+import business.Organization.Organization;
+////import business.Restaurant.RestaurantDirectory;
+import business.UserAccount.UserAccount;
+//import userinterface.CustomerRole.CustomerAreaJPanel;
+import javax.swing.JPanel;
+import userinterface.Ambulance.EmergencyAmbulanceUserJPanel;
+
+/**
+ *
+ * @author vaishnaviyadamreddy
+>>>>>>> branchA
  */
 public class AmbulanceRole extends Role{
 

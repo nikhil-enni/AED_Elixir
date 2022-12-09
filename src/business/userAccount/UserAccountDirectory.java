@@ -4,13 +4,22 @@
  */
 package business.userAccount;
 
+<<<<<<< HEAD
 import business.employee.Employee;
 import business.role.Role;
+=======
+import business.Employee.Employee;
+import business.Role.Role;
+>>>>>>> branchA
 import java.util.ArrayList;
 
 /**
  *
+<<<<<<< HEAD
  * @author sri_sai_nikhil_enni
+=======
+ * @author amisha03
+>>>>>>> branchA
  */
 public class UserAccountDirectory {
     

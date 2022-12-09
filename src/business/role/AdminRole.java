@@ -4,6 +4,7 @@
  */
 package business.role;
 
+<<<<<<< HEAD
 //import Business.Customer.CustomerDirectory;
 import business.EcoSystem;
 import business.enterprise.Enterprise;
@@ -21,6 +22,26 @@ import userInterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
 /**
  *
  * @author amisha03
+=======
+//import business.Customer.CustomerDirectory;
+import business.EcoSystem;
+import business.Enterprise.Enterprise;
+import business.MedicalEmployment.PatientList;
+import business.Network.Network;
+
+import business.Organization.Organization;
+//import business.Restaurant.RestaurantDirectory;
+import business.UserAccount.UserAccount;
+//import userinterface.RestaurantAdminRole.AdminWorkAreaJPanel;
+import javax.swing.JPanel;
+import userinterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
+import userinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
+
+/**
+ *
+ * @author vaishanviyadamreddy
+ * 
+>>>>>>> branchA
  */
 public class AdminRole extends Role{
 

@@ -6,6 +6,7 @@
 package business.role;
 
 import business.EcoSystem;
+<<<<<<< HEAD
 import business.enterprise.Enterprise;
 import business.network.Network;
 import business.organization.Organization;
@@ -16,6 +17,18 @@ import userInterface.BillingWorkArea.BillingWorkArea;
 /**
  *
  * @author vaishnaviyadamreddy
+=======
+import business.Enterprise.Enterprise;
+import business.Network.Network;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
+import javax.swing.JPanel;
+import userinterface.BillingWorkArea.BillingWorkArea;
+
+/**
+ *
+ * @author amisha03
+>>>>>>> branchA
  */
 public class BillingAdminRole extends Role{
     public JPanel createWorkArea(JPanel userProcessContainer, 

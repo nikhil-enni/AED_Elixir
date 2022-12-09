@@ -6,6 +6,7 @@
 package business;
 
 
+<<<<<<< HEAD
 
 import business.enterprise.Enterprise;
 import business.equipment.EquipmentList;
@@ -14,6 +15,18 @@ import business.medicalEmployment.PatientList;
 import business.medicalEmployment.AmbulanceList;
 import business.network.Network;
 import business.organization.Organization;
+=======
+//import business.Customer.CustomerDirectory;
+//import business.DeliveryMan.DeliveryManDirectory;
+//import business.Restaurant.RestaurantDirectory;
+import business.enterprise.Enterprise;
+import business.Equipment.EquipmentList;
+import business.MedicalEmployment.DoctorList;
+import business.MedicalEmployment.PatientList;
+import business.MedicalEmployment.AmbulanceList;
+import business.Network.Network;
+import business.Organization.Organization;
+>>>>>>> branchA
 import business.role.Role;
 import business.role.SystemAdminRole;
 import business.userAccount.UserAccount;
@@ -21,7 +34,11 @@ import java.util.ArrayList;
 
 /**
  *
+<<<<<<< HEAD
  * @author sri_sai_nikhil_enni
+=======
+ * @author amisha03
+>>>>>>> branchA
  */
 public class EcoSystem extends Organization{
     
@@ -131,7 +148,11 @@ public class EcoSystem extends Organization{
 //        
 //    }
 
+<<<<<<< HEAD
     public static EcoSystem getBusiness() {
+=======
+    public static EcoSystem getbusiness() {
+>>>>>>> branchA
         return business;
     }
 

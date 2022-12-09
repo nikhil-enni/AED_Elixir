@@ -48,7 +48,11 @@
     <Container class="javax.swing.JPanel" name="container">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
           <Color blue="67" green="71" red="29" type="rgb"/>
+=======
+          <Color blue="99" green="99" red="0" type="rgb"/>
+>>>>>>> branchA
         </Property>
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
@@ -71,7 +75,11 @@
               <Group type="102" attributes="0">
                   <EmptySpace min="-2" pref="435" max="-2" attributes="0"/>
                   <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                   <EmptySpace pref="620" max="32767" attributes="0"/>
+=======
+                  <EmptySpace pref="593" max="32767" attributes="0"/>
+>>>>>>> branchA
               </Group>
           </Group>
         </DimensionLayout>
@@ -89,13 +97,18 @@
         <Container class="javax.swing.JPanel" name="jPanel3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
               <Color blue="76" green="95" red="ff" type="rgb"/>
+=======
+              <Color blue="cc" green="ff" red="ff" type="rgb"/>
+>>>>>>> branchA
             </Property>
           </Properties>
 
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace pref="51" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -118,6 +131,22 @@
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
+=======
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="50" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jPanel1" max="32767" attributes="0"/>
+                          <Component id="loginJButton" alignment="0" max="32767" attributes="0"/>
+                          <Component id="logoutJButton" max="32767" attributes="0"/>
+                          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="190" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+>>>>>>> branchA
                   </Group>
               </Group>
             </DimensionLayout>
@@ -143,14 +172,22 @@
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+<<<<<<< HEAD
                   <Image iconType="3" name="/Image/usergreen.png"/>
+=======
+                  <Image iconType="3" name="/Pictures/usergreen.png"/>
+>>>>>>> branchA
                 </Property>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="loginJButton">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="67" green="71" red="29" type="rgb"/>
+=======
+                  <Color blue="99" green="99" red="0" type="rgb"/>
+>>>>>>> branchA
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Lucida Grande" size="24" style="1"/>
@@ -174,7 +211,11 @@
             <Component class="javax.swing.JButton" name="logoutJButton">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="67" green="71" red="29" type="rgb"/>
+=======
+                  <Color blue="99" green="99" red="0" type="rgb"/>
+>>>>>>> branchA
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Lucida Grande" size="24" style="1"/>
@@ -198,7 +239,11 @@
             <Container class="javax.swing.JPanel" name="jPanel1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="67" green="71" red="29" type="rgb"/>
+=======
+                  <Color blue="99" green="99" red="0" type="rgb"/>
+>>>>>>> branchA
                 </Property>
               </Properties>
 
@@ -231,7 +276,11 @@
                 <Component class="javax.swing.JLabel" name="jLabel2">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+<<<<<<< HEAD
                       <Image iconType="3" name="/Image/user.png"/>
+=======
+                      <Image iconType="3" name="/Pictures/user.png"/>
+>>>>>>> branchA
                     </Property>
                     <Property name="text" type="java.lang.String" value="jLabel2"/>
                   </Properties>
@@ -255,18 +304,30 @@
             <Container class="javax.swing.JPanel" name="jPanel2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
                   <Color blue="67" green="71" red="29" type="rgb"/>
+=======
+                  <Color blue="99" green="99" red="0" type="rgb"/>
+>>>>>>> branchA
                 </Property>
               </Properties>
 
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel3" min="-2" pref="48" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="passwordField" pref="216" max="32767" attributes="0"/>
+=======
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="passwordField" min="-2" pref="216" max="-2" attributes="0"/>
+>>>>>>> branchA
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -275,11 +336,19 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Component id="jLabel3" pref="45" max="32767" attributes="0"/>
                               <Component id="passwordField" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
+=======
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabel3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="passwordField" min="-2" pref="45" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+>>>>>>> branchA
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -288,7 +357,11 @@
                 <Component class="javax.swing.JLabel" name="jLabel3">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+<<<<<<< HEAD
                       <Image iconType="3" name="/Image/password.png"/>
+=======
+                      <Image iconType="3" name="/Pictures/password.png"/>
+>>>>>>> branchA
                     </Property>
                   </Properties>
                 </Component>
@@ -312,7 +385,11 @@
     <Container class="javax.swing.JPanel" name="leftPanel">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< HEAD
           <Color blue="76" green="95" red="ff" type="rgb"/>
+=======
+          <Color blue="99" green="99" red="0" type="rgb"/>
+>>>>>>> branchA
         </Property>
       </Properties>
 

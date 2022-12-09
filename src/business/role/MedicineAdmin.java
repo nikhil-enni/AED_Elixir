@@ -6,6 +6,7 @@
 package business.role;
 
 import business.EcoSystem;
+<<<<<<< HEAD
 import business.enterprise.Enterprise;
 import business.network.Network;
 import business.organization.Organization;
@@ -18,6 +19,20 @@ import userinterface.medicineUnitAdminArea.MedicineUnitAdminWorkAreaJPanel;
 /**
  *
  * @author sri_sai_nikhil_enni
+=======
+import business.Enterprise.Enterprise;
+import business.Network.Network;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
+import javax.swing.JPanel;
+import userinterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
+import userinterface.MedicineUnitAdminArea.MedicineUnitAdminWorkAreaJPanel;
+import userinterface.MedicineUnitAdminArea.MedicineUnitAdminWorkAreaJPanel;
+
+/**
+ *
+ * @author amisha03
+>>>>>>> branchA
  */
 public class MedicineAdmin extends Role{
      @Override

@@ -5,6 +5,7 @@
 package business.role;
 
 import business.EcoSystem;
+<<<<<<< HEAD
 import business.enterprise.Enterprise;
 import business.network.Network;
 import business.organization.Organization;
@@ -12,6 +13,15 @@ import business.userAccount.UserAccount;
 import javax.swing.JPanel;
 import userInterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
 import userInterface.LabWorkArea.LabWorkAreaJPanel;
+=======
+import business.Enterprise.Enterprise;
+import business.Network.Network;
+import business.Organization.Organization;
+import business.UserAccount.UserAccount;
+import javax.swing.JPanel;
+import userinterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
+import userinterface.LabWorkArea.LabWorkAreaJPanel;
+>>>>>>> branchA
 
 /**
  *

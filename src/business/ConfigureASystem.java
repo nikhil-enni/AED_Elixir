@@ -19,6 +19,10 @@ public class ConfigureASystem {
         //initialize some organizations
         //have some employees 
         //create user account
+<<<<<<< HEAD
+=======
+	//git test
+>>>>>>> branchA
         
         
         Employee employee = system.getEmployeeDirectory().createEmployee("RRH");
