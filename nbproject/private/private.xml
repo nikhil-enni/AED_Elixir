@@ -3,87 +3,22 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< Updated upstream
-            <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/ui/PatientSignUp.java</file>
-            <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/ui/Login.java</file>
-=======
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicalEmployment/Doctor.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/SystemAdminRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/EnterpriseDirectory.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/equipment/EquipmentList.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/Enterprise.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/ManagementAdminRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/workQueue/WorkRequest.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/EmergencyAdminRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/workQueue/DoctorWorkRequest.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/PersonRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/Role.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/EmergencyDoctorRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/userInterface/MainJFrame.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicine/Prescription.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/EmergencyOrganization.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/MedicineOrganization.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicine/Medicine.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/ReceptionistOrganization.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/EmergencyUnit.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/vitalSigns/VitalSignsHistory.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/PersonOrganization.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/OrganizationDirectory.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/AmbulanceOrganization.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/AccountingAdminRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/ReceptionistRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/BillingOrganization.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/vitalSigns/VitalSigns.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/network/Network.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/AccountingUnit.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/ConfigureASystem.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/EmergencyUserRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/userInterface/MainJFrame2.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicalEmployment/Ambulance.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicalEmployment/AmbulanceList.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/LabAssistantRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/AdminOrganizatiion.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicalEmployment/DoctorList.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/workQueue/LabWorkRequest.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/EquipmentAdmin.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/workQueue/BillingWorkRequest.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/userAccount/UserAccountDirectory.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicalEmployment/Patient.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/workQueue/DoctorCheckUpWorkRequest.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/m.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/workQueue/AmbulanceWorkRequest.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/workQueue/EmergencyPatientRequest.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/BillingAdminRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/PatientOrganization.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/AmbulanceRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/MedicineUser.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/MedicineAdmin.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/userAccount/UserAccount.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicine/PrescriptionList.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/employee/Employee.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/LabOrganization.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/workQueue/EquipmentWorkRequest.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/EquipmentOrganization.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicalEmployment/PatientHistory.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/equipment/Equipment.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/employee/EmployeeDirectory.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicalEmployment/Nurse.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/DoctorRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/ManagementUnit.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/Organization.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/workQueue/WorkQueue.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/EcoSystem.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicine/MedicineList.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicalEmployment/PatientList.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/userAccount/UserAccountDirectory.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/ui/Login.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/AmbulanceOrganization.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/BillingOrganization.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/MedicineUnit.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/utils/Validation.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/workQueue/LabTestWorkRequest.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicalEmployment/NurseList.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/AdminRole.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/DoctorOrganization.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/userAccount/UserAccount.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/ui/CityAdminPage.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/AccountingUnit.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicine/Prescription.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/DoctorWorkRequest.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/ui/HomePage.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/AdminOrganizatiion.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/EquipmentUnit.java</file>
-            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/role/PatientRole.java</file>
->>>>>>> Stashed changes
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/EquipmentOrganization.java</file>
         </group>
     </open-files>
 </project-private>
