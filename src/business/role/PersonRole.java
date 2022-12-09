@@ -18,7 +18,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author raunak
+ * @author vaishnaviyadamreddy
  */
 public class PersonRole extends Role{
 
