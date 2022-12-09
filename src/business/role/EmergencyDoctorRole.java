@@ -19,7 +19,7 @@ import userinterface.DoctorWorkArea.EmergencyDoctorWorkAreaJPanel;
 
 /**
  *
- * @author raunak
+ * @author sri_sai_nikhil_enni
  */
 public class EmergencyDoctorRole extends Role{
 

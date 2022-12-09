@@ -22,7 +22,7 @@ import userinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
 
 /**
  *
- * @author raunak
+ * @author sri_sai_nikhil_enni
  */
 public class EmergencyAdminRole extends Role{
 

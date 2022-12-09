@@ -15,7 +15,7 @@ import userinterface.LabWorkArea.LabWorkAreaJPanel;
 
 /**
  *
- * @author sandeep
+ * @author sri_sai_nikhil_enni
  */
 public class LabAssistantRole extends Role {
 

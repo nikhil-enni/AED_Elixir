@@ -19,7 +19,7 @@ import userInterface.medicineUnitAdminArea.MedicineUnitManageOrganizationsJPanel
 
 /**
  *
- * @author singh
+ * @author sri_sai_nikhil_enni
  */
 public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 

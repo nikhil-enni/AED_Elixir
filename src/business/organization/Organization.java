@@ -7,12 +7,12 @@ package business.organization;
 import business.employee.EmployeeDirectory;
 import business.role.Role;
 import business.userAccount.UserAccountDirectory;
-import business.WorkQueue.WorkQueue;
+import business.workQueue.WorkQueue;
 import java.util.ArrayList;
 
 /**
  *
- * @author raunak
+ * @author sri_sai_nikhil_enni
  */
 public abstract class Organization {
 

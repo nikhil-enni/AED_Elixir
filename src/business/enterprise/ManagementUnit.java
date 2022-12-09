@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author singh
+ * @author sri_sai_nikhil_enni
  */
 public class ManagementUnit extends Enterprise {
     public ManagementUnit(String name){

@@ -17,7 +17,7 @@ import userinterface.medicineUnitAdminArea.MedicineUnitAdminWorkAreaJPanel;
 
 /**
  *
- * @author singh
+ * @author sri_sai_nikhil_enni
  */
 public class MedicineAdmin extends Role{
      @Override

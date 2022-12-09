@@ -19,7 +19,7 @@ import userinterface.Receptionist.PatientListJPanel;
 
 /**
  *
- * @author raunak
+ * @author sri_sai_nikhil_enni
  */
 
 public class ReceptionistRole extends Role{
