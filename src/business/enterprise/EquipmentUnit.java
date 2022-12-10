@@ -16,11 +16,15 @@ import java.util.ArrayList;
 
 /**
  *
+<<<<<<< Updated upstream
 <<<<<<< HEAD
  * @author singh
 =======
  * @author amisha03
 >>>>>>> branchA
+=======
+ * @author vaishnaviyadamreddy
+>>>>>>> Stashed changes
  */
 public class EquipmentUnit extends Enterprise {
    public EquipmentUnit(String name) {

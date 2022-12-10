@@ -18,11 +18,15 @@ import java.util.ArrayList;
 
 /**
  *
+<<<<<<< Updated upstream
 <<<<<<< HEAD
  * @author singh
 =======
  * @author amisha03
 >>>>>>> branchA
+=======
+ * @author vaishnaviyadamreddy
+>>>>>>> Stashed changes
  */
 public class MedicineUnit extends Enterprise{
 
