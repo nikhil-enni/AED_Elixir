@@ -5,6 +5,7 @@
         <group>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/business/organization/Organization.java</file>
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/business/medicalEmployment/Nurse.java</file>
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/business/enterprise/EmergencyUnit.java</file>
@@ -14,6 +15,8 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/userInterface/Receptionist/CreatePatientJPanel.java</file>
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/userInterface/Ambulance/PatientLocationMap.java</file>
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/userInterface/Receptionist/PatientRegistrationJPanel.java</file>
@@ -21,6 +24,9 @@
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/userInterface/AccountingUnitAdminArea/AccountingUnitManageOrganizationsJPanel.java</file>
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/userInterface/EquipmentUnitAdminArea/EquipmentUnitManageEmployeeJPanel.java</file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -145,10 +151,15 @@
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/business/userAccount/UserAccountDirectory.java</file>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/business/DB4OUtil/DB4OUtil.java</file>
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/business/medicalEmployment/Doctor.java</file>
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/business/equipment/EquipmentAdmin.java</file>
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/business/vitalSigns/VitalSigns.java</file>
+=======
+            <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/userInterface/Ambulance/EmergencyAmbulanceUserJPanel.java</file>
+            <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/userInterface/AccountingUnitAdminArea/AccountingUnitManageEmployeeJPanel.java</file>
+>>>>>>> Stashed changes
 =======
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/userInterface/Ambulance/EmergencyAmbulanceUserJPanel.java</file>
             <file>file:/Users/sri_sai_nikhil_enni/NetBeansProjects/Elixir/src/userInterface/AccountingUnitAdminArea/AccountingUnitManageEmployeeJPanel.java</file>

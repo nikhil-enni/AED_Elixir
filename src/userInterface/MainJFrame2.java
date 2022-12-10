@@ -28,7 +28,11 @@ import userInterface.Receptionist.CreatePatientJPanel;
  *
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  * @author sri_sai_nikhil_enni
+=======
+ * @author Lingfeng
+>>>>>>> Stashed changes
 =======
  * @author Lingfeng
 >>>>>>> Stashed changes
@@ -43,7 +47,10 @@ public class MainJFrame2 extends javax.swing.JFrame {
      */
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======

@@ -21,7 +21,11 @@ import org.apache.log4j.Logger;
  *
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  * @author sri_sai_nikhil_enni
+=======
+ * @author vaishnaviyadamreddy
+>>>>>>> Stashed changes
 =======
  * @author vaishnaviyadamreddy
 >>>>>>> Stashed changes
@@ -219,7 +223,11 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addContainerGap(610, Short.MAX_VALUE))
+=======
+                .addContainerGap(620, Short.MAX_VALUE))
+>>>>>>> Stashed changes
 =======
                 .addContainerGap(620, Short.MAX_VALUE))
 >>>>>>> Stashed changes
@@ -234,8 +242,11 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .addContainerGap(239, Short.MAX_VALUE))
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
                 .addContainerGap(258, Short.MAX_VALUE))
