@@ -23,7 +23,7 @@ public class AccountingUnit extends Enterprise {
     super(name, Enterprise.EnterpriseType.AccountingUnit);
 }
 
-@Override    
+    
 public ArrayList<Role> getSupportedRole() {
     roles = new ArrayList<Role>();
     roles.add(new BillingAdminRole());

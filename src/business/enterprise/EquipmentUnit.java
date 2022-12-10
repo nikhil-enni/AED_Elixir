@@ -5,13 +5,10 @@
  */
 package business.enterprise;
 
-<<<<<<< HEAD
+
 import business.role.EquipmentAdmin;
 import business.role.Role;
-=======
-import business.Role.EquipmentAdmin;
-import business.Role.Role;
->>>>>>> branchA
+
 import java.util.ArrayList;
 
 /**

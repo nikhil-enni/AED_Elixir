@@ -4,7 +4,6 @@
  */
 package business.role;
 
-<<<<<<< HEAD
 //import Business.Customer.CustomerDirectory;
 import business.EcoSystem;
 import business.enterprise.Enterprise;
@@ -41,7 +40,6 @@ import userinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
  *
  * @author vaishanviyadamreddy
  * 
->>>>>>> branchA
  */
 public class AdminRole extends Role{
 

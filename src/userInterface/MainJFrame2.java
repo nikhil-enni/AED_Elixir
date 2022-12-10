@@ -4,7 +4,7 @@
  */
 package userInterface;
 import org.apache.log4j.Logger;
-<<<<<<< HEAD
+
 //import Business.Customer.CustomerDirectory;
 import business.EcoSystem;
 import business.DB4OUtil.DB4OUtil;
@@ -16,19 +16,7 @@ import business.network.Network;
 import business.organization.Organization;
 //import Business.Restaurant.RestaurantDirectory;
 import business.userAccount.UserAccount;
-=======
-//import business.Customer.CustomerDirectory;
-import business.EcoSystem;
-import business.DB4OUtil.DB4OUtil;
-import business.Enterprise.Enterprise;
-import business.MedicalEmployment.PatientList;
-import business.Network.Network;
-//import business.DeliveryMan.DeliveryManDirectory;
 
-import business.Organization.Organization;
-//import business.Restaurant.RestaurantDirectory;
-import business.UserAccount.UserAccount;
->>>>>>> branchA
 import java.awt.CardLayout;
 import java.awt.Container;
 import java.awt.Image;
@@ -36,56 +24,27 @@ import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-<<<<<<< HEAD
 import userInterface.Receptionist.CreatePatientJPanel;
 
 /**
  *
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
  * @author sri_sai_nikhil_enni
-=======
-<<<<<<< HEAD
-import userinterface.Receptionist.CreatePatientJPanel;
+
+import userInterface.Receptionist.CreatePatientJPanel;
 
 /**
  *
  * @author Lingfeng
->>>>>>> branchA
-=======
  * @author Lingfeng
->>>>>>> Stashed changes
-=======
  * @author Lingfeng
->>>>>>> Stashed changes
-=======
- * @author Lingfeng
->>>>>>> Stashed changes
->>>>>>> branchN
  */
 public class MainJFrame2 extends javax.swing.JFrame {
 
     /**
      * Creates new form MainJFrame2
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    
-=======
->>>>>>> branchA
-=======
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
->>>>>>> branchN
+
+
     private EcoSystem system;
     private DB4OUtil dB4OUtil = DB4OUtil.getInstance();
     private UserAccount userAccount;
@@ -108,11 +67,10 @@ public class MainJFrame2 extends javax.swing.JFrame {
 //        customerDirectory = new CustomerDirectory();
 //        restaurantDirectory = new RestaurantDirectory();
 //        deliveryManDirectory = new DeliveryManDirectory();
-<<<<<<< HEAD
+
         ImageIcon ii = new ImageIcon("D:\\Northeastern_University\\Wagh_Sandeep_001839964\\Assignment\\Assignment_4\\src\\Business\\Images\\folder\\foodmitho.jpg");
-=======
-        ImageIcon ii = new ImageIcon("D:\\Northeastern_University\\Wagh_essni_001839964\\Assignment\\Assignment_4\\src\\business\\Images\\folder\\foodmitho.jpg");
->>>>>>> branchA
+
+
         
        Image image = ii.getImage().getScaledInstance(jPanel2.getWidth(), jPanel2.getHeight(), Image.SCALE_SMOOTH);
         jLabel4.setIcon(new ImageIcon(image));
@@ -178,11 +136,9 @@ public class MainJFrame2 extends javax.swing.JFrame {
         });
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
+
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/download2.png"))); // NOI18N
-=======
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/download2.png"))); // NOI18N
->>>>>>> branchA
+
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -240,11 +196,9 @@ public class MainJFrame2 extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(121, 167, 211));
 
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-<<<<<<< HEAD
+
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/foodmitho.jpg"))); // NOI18N
-=======
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/foodmitho.jpg"))); // NOI18N
->>>>>>> branchA
+
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);

@@ -221,7 +221,7 @@ public class MainJFrame extends javax.swing.JFrame {
             .addGroup(loginJPanelLayout.createSequentialGroup()
                 .addGap(435, 435, 435)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
+
 
                 .addContainerGap(593, Short.MAX_VALUE))
 
@@ -234,17 +234,11 @@ public class MainJFrame extends javax.swing.JFrame {
 
                 .addContainerGap(239, Short.MAX_VALUE))
 
-                .addContainerGap(258, Short.MAX_VALUE))
 
         );
 
         leftPanel.setBackground(new java.awt.Color(255, 149, 118));
-=======
-                .addContainerGap(258, Short.MAX_VALUE))
-        );
 
-        leftPanel.setBackground(new java.awt.Color(0, 153, 153));
->>>>>>> branchA
 
         logoutbtn2.setBackground(new java.awt.Color(41, 113, 103));
         logoutbtn2.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N

@@ -6,13 +6,13 @@
 package userInterface.EquipementWorkArea;
 
 import business.EcoSystem;
-import business.Enterprise.Enterprise;
-import business.Equipment.EquipmentList;
+import business.enterprise.Enterprise;
+import business.equipment.EquipmentList;
 import java.awt.CardLayout;
 import java.awt.Component;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import userinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
+import userInterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
 
 /**
  *

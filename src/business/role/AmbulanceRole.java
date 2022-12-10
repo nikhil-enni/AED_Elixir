@@ -4,7 +4,7 @@
  */
 package business.role;
 
-<<<<<<< HEAD
+
 //import Business.Customer.CustomerDirectory;
 import business.EcoSystem;
 import business.enterprise.Enterprise;
@@ -38,7 +38,6 @@ import userinterface.Ambulance.EmergencyAmbulanceUserJPanel;
 /**
  *
  * @author vaishnaviyadamreddy
->>>>>>> branchA
  */
 public class AmbulanceRole extends Role{
 

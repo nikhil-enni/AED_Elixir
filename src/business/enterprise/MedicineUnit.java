@@ -5,15 +5,11 @@
  */
 package business.enterprise;
 
-<<<<<<< HEAD
+
 import business.role.BillingAdminRole;
 import business.role.MedicineAdmin;
 import business.role.Role;
-=======
-import business.Role.BillingAdminRole;
-import business.Role.MedicineAdmin;
-import business.Role.Role;
->>>>>>> branchA
+
 import java.util.ArrayList;
 
 /**

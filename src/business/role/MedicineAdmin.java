@@ -6,7 +6,6 @@
 package business.role;
 
 import business.EcoSystem;
-<<<<<<< HEAD
 import business.enterprise.Enterprise;
 import business.network.Network;
 import business.organization.Organization;

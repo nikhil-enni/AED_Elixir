@@ -6,17 +6,17 @@
 package userInterface.EquipementWorkArea;
 
 import business.EcoSystem;
-import business.Employee.Employee;
-import business.Enterprise.Enterprise;
-import business.Equipment.Equipment;
-import business.Equipment.EquipmentList;
-import business.Network.Network;
-import business.Organization.Organization;
-import business.UserAccount.UserAccount;
+import business.employee.Employee;
+import business.enterprise.Enterprise;
+import business.equipment.Equipment;
+import business.equipment.EquipmentList;
+import business.network.Network;
+import business.organization.Organization;
+import business.userAccount.UserAccount;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
-import userinterface.EmergencyUnitAdminArea.EmergencyUnitManageEmployeeJPanel;
+import userInterface.EmergencyUnitAdminArea.EmergencyUnitManageEmployeeJPanel;
 
 /**
  *

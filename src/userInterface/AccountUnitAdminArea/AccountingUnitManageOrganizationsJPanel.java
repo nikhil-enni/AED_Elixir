@@ -3,21 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userInterface.accountUnitAdminArea;
+package userInterface.AccountUnitAdminArea;
 
 import business.EcoSystem;
-import business.Enterprise.Enterprise;
-import business.Organization.BillingOrganization;
-import business.Organization.Organization;
-import business.Organization.Organization.Type;
-import business.Organization.OrganizationDirectory;
+import business.enterprise.Enterprise;
+import business.organization.BillingOrganization;
+import business.organization.Organization;
+import business.organization.Organization.Type;
+import business.organization.OrganizationDirectory;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
-import business.Utils.Validation;
+import business.utils.Validation;
 
 /**
  *
