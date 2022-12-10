@@ -3,19 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.SystemAdminWorkArea;
+
+package userInterface.SystemAdminWorkArea;
 
 import business.EcoSystem;
-import business.Employee.Employee;
-import business.Enterprise.Enterprise;
-import business.Network.Network;
-import business.Role.AccountingAdminRole;
-import business.Role.AdminRole;
-import business.Role.EmergencyAdminRole;
-import business.Role.EquipmentAdmin;
-import business.Role.ManagementAdminRole;
-import business.Role.MedicineAdmin;
-import business.UserAccount.UserAccount;
+import business.employee.Employee;
+import business.enterprise.Enterprise;
+import business.network.Network;
+import business.role.AccountingAdminRole;
+import business.role.AdminRole;
+import business.role.EmergencyAdminRole;
+import business.role.EquipmentAdmin;
+import business.role.ManagementAdminRole;
+import business.role.MedicineAdmin;
+import business.userAccount.UserAccount;
+
 import java.awt.CardLayout;
 import java.awt.Component;
 import javax.swing.JOptionPane;

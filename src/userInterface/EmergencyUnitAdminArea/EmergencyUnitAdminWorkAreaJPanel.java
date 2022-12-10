@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.EmergencyUnitAdminArea;
 
-import userinterface.MedicineUnitAdminArea.*;
+package userInterface.EmergencyUnitAdminArea;
+
+import userInterface.MedicineUnitAdminArea.*;
 import business.EcoSystem;
-import business.Enterprise.Enterprise;
+import business.enterprise.Enterprise;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
-import userinterface.ManagementUnitAdminArea.*;
-import userinterface.SystemAdminWorkArea.*;
+import userInterface.ManagementUnitAdminArea.*;
+
+import userInterface.SystemAdminWorkArea.*;
 
 /**
  *

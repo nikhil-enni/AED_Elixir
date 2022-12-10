@@ -3,21 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userInterface.doctorWorkArea;
+
+package userInterface.DoctorWorkArea;
 
 import business.EcoSystem;
-import business.Employee.Employee;
-import business.Enterprise.Enterprise;
-import business.MedicalEmployment.Doctor;
-import business.MedicalEmployment.Patient;
-import business.Network.Network;
+import business.employee.Employee;
+import business.enterprise.Enterprise;
+import business.medicalEmployment.Doctor;
+import business.medicalEmployment.Patient;
+import business.network.Network;
 //import business.Mail.Mail;
-import business.Organization.LabOrganization;
-import business.Organization.Organization;
+import business.organization.LabOrganization;
+import business.organization.Organization;
 import business.userAccount.UserAccount;
-import business.WorkQueue.LabTestWorkRequest;
-import business.WorkQueue.LabWorkRequest;
-import business.WorkQueue.WorkRequest;
+import business.workQueue.LabTestWorkRequest;
+import business.workQueue.LabWorkRequest;
+import business.workQueue.WorkRequest;
+
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.util.Date;

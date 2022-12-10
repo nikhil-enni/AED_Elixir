@@ -3,19 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.SystemAdminWorkArea;
+
+package userInterface.SystemAdminWorkArea;
 
 import business.EcoSystem;
-import business.Enterprise.Enterprise;
-import business.MedicalEmployment.PatientList;
-import business.Network.Network;
-import business.Organization.Organization;
+import business.enterprise.Enterprise;
+import business.medicalEmployment.PatientList;
+import business.network.Network;
+import business.organization.Organization;
+
 import java.awt.CardLayout;
 import java.util.ArrayList;
 import javax.swing.JPanel;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
-import userinterface.MedicineUnitAdminArea.MedicineUnitManageOrganizationsJPanel;
+
+import userInterface.MedicineUnitAdminArea.MedicineUnitManageOrganizationsJPanel;
+
 
 /**
  *

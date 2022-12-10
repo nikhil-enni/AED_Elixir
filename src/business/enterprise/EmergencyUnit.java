@@ -9,17 +9,11 @@ import business.role.AmbulanceRole;
 import business.role.EmergencyDoctorRole;
 import business.role.Role;
 import java.util.ArrayList;
-<<<<<<< HEAD
 import business.role.EmergencyAdminRole;
 import business.role.LabAssistantRole;
 import business.role.PatientRole;
 import business.role.ReceptionistRole;
-=======
-import business.Role.EmergencyAdminRole;
-import business.Role.LabAssistantRole;
-import business.Role.PatientRole;
-import business.Role.ReceptionistRole;
->>>>>>> branchA
+
 
 /**
  *

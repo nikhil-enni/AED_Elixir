@@ -3,17 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.ManagementUnitAdminArea;
+
+package userInterface.ManagementUnitAdminArea;
 
 import business.EcoSystem;
-import business.Enterprise.Enterprise;
+import business.enterprise.Enterprise;
+
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 import userinterface.SystemAdminWorkArea.*;
 
 /**
  *
+
  * @author amisha03
+
  */
 public class ManagementUnit1AdminWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -80,7 +84,9 @@ public class ManagementUnit1AdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/ManagementAdmin.png"))); // NOI18N
+
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

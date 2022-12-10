@@ -6,16 +6,18 @@
 package userInterface.EquipmentUnitAdminArea;
 
 import business.EcoSystem;
-import business.Enterprise.Enterprise;
+
+
+import business.enterprise.Enterprise;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
-import userinterface.EquipmentUnitAdminArea.EquipmentUnitManageEmployeeJPanel;
-import userinterface.EquipmentUnitAdminArea.EquipmentUnitManageOrganizationsJPanel;
-import userinterface.EquipmentUnitAdminArea.EquipmentUnitManageUsersJPanel;
+import userInterface.EquipmentUnitAdminArea.EquipmentUnitManageEmployeeJPanel;
+import userInterface.EquipmentUnitAdminArea.EquipmentUnitManageOrganizationsJPanel;
+import userInterface.EquipmentUnitAdminArea.EquipmentUnitManageUsersJPanel;
 
 /**
  *
- * @author vaishnaviyadamreddy
+ * @author ashleshagokhale
  */
 public class EquipmentUnitAdminWorkArea2JPanel extends javax.swing.JPanel {
 

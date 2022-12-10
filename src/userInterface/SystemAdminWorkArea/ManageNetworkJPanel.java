@@ -3,10 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.SystemAdminWorkArea;
+
+package userInterface.SystemAdminWorkArea;
 
 import business.EcoSystem;
-import business.Network.Network;
+import business.network.Network;
+
 import java.awt.CardLayout;
 import java.awt.Component;
 import javax.swing.JOptionPane;

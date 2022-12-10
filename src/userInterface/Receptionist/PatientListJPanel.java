@@ -3,32 +3,36 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.Receptionist;
+
+package userInterface.Receptionist;
 
 import business.EcoSystem;
-import business.Enterprise.Enterprise;
-import business.MedicalEmployment.Doctor;
-import business.MedicalEmployment.DoctorList;
-import business.MedicalEmployment.Patient;
-import business.MedicalEmployment.PatientList;
-import business.Network.Network;
-import business.Organization.DoctorOrganization;
-import business.Organization.Organization;
-import business.Organization.PatientOrganization;
-import business.UserAccount.UserAccount;
-import business.WorkQueue.DoctorWorkRequest;
-import business.WorkQueue.WorkRequest;
+import business.enterprise.Enterprise;
+import business.medicalEmployment.Doctor;
+import business.medicalEmployment.DoctorList;
+import business.medicalEmployment.Patient;
+import business.medicalEmployment.PatientList;
+import business.network.Network;
+import business.organization.DoctorOrganization;
+import business.organization.Organization;
+import business.organization.PatientOrganization;
+import business.userAccount.UserAccount;
+import business.workQueue.DoctorWorkRequest;
+import business.workQueue.WorkRequest;
+
 import java.awt.CardLayout;
 import java.awt.Component;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 import org.apache.log4j.Logger;
-import userinterface.Patient.PatientWorkAreaJPanel;
-import userinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
+
+import userInterface.Patient.PatientWorkAreaJPanel;
+import userInterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
 
 /**
- *
+ *s
+
  * @author amisha03
  */
 public class PatientListJPanel extends javax.swing.JPanel {

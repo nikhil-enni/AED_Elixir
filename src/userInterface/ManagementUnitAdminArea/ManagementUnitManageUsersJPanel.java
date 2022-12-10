@@ -3,22 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.ManagementUnitAdminArea;
+
+package userInterface.ManagementUnitAdminArea;
 
 import business.EcoSystem;
-import business.Employee.Employee;
-import business.Enterprise.Enterprise;
-import business.Organization.AmbulanceOrganization;
-import business.Organization.DoctorOrganization;
-import business.Organization.Organization;
-import business.Organization.PatientOrganization;
-import business.Role.Role;
-import business.UserAccount.UserAccount;
+import business.employee.Employee;
+import business.enterprise.Enterprise;
+import business.organization.AmbulanceOrganization;
+import business.organization.DoctorOrganization;
+import business.organization.Organization;
+import business.organization.PatientOrganization;
+import business.role.Role;
+import business.userAccount.UserAccount;
+
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
-import userinterface.Patient.PatientLocationMap;
+
+import userInterface.Patient.PatientLocationMap;
+
 
 /**
  *

@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.MedicineUnitArea;
+
+package userInterface.MedicineUnitArea;
 
 import business.EcoSystem;
-import business.Enterprise.Enterprise;
-import business.Medicine.Medicine;
-import business.Medicine.MedicineList;
-import business.Network.Network;
-import business.Organization.MedicineOrganization;
-import business.Organization.Organization;
+import business.enterprise.Enterprise;
+import business.medicine.Medicine;
+import business.medicine.MedicineList;
+import business.network.Network;
+import business.organization.MedicineOrganization;
+import business.organization.Organization;
 
-import business.UserAccount.UserAccount;
+import business.userAccount.UserAccount;
 
 
-import business.WorkQueue.WorkRequest;
+import business.workQueue.WorkRequest;
+
 import java.awt.CardLayout;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;

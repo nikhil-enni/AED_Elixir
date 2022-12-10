@@ -3,9 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.Patient;
-import userinterface.Receptionist.*;
-import userinterface.Patient.*;
+
+package userInterface.Patient;
+import userInterface.Receptionist.*;
+import userInterface.Patient.*;
+
 import static com.teamdev.jxbrowser.engine.RenderingMode.*;
 
 import com.teamdev.jxbrowser.browser.Browser;
@@ -21,7 +23,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
-import userinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
+
+import userInterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
+
 
 /**
  *

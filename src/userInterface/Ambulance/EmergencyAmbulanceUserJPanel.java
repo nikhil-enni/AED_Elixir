@@ -6,16 +6,18 @@
 package userInterface.Ambulance;
 
 import business.EcoSystem;
-import business.Enterprise.Enterprise;
-import business.MedicalEmployment.Ambulance;
-import business.MedicalEmployment.Patient;
-import business.Network.Network;
-import business.Organization.Organization;
-import business.UserAccount.UserAccount;
-import business.WorkQueue.AmbulanceWorkRequest;
-import business.WorkQueue.DoctorWorkRequest;
-import business.WorkQueue.EmergencyPatientRequest;
-import business.WorkQueue.WorkRequest;
+
+import business.enterprise.Enterprise;
+import business.medicalEmployment.Ambulance;
+import business.medicalEmployment.Patient;
+import business.network.Network;
+import business.organization.Organization;
+import business.userAccount.UserAccount;
+import business.workQueue.AmbulanceWorkRequest;
+import business.workQueue.DoctorWorkRequest;
+import business.workQueue.EmergencyPatientRequest;
+import business.workQueue.WorkRequest;
+
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;

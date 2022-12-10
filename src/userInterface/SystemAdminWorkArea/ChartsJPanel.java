@@ -3,18 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.SystemAdminWorkArea;
+
+package userInterface.SystemAdminWorkArea;
 
 import business.EcoSystem;
-import business.Enterprise.Enterprise;
-import business.Equipment.Equipment;
-import business.MedicalEmployment.Patient;
-import business.MedicalEmployment.PatientList;
-import business.Network.Network;
-import business.Organization.EmergencyOrganization;
-import business.Organization.Organization;
-import business.WorkQueue.EmergencyPatientRequest;
-import business.WorkQueue.WorkRequest;
+import business.enterprise.Enterprise;
+import business.equipment.Equipment;
+import business.medicalEmployment.Patient;
+import business.medicalEmployment.PatientList;
+import business.network.Network;
+import business.organization.EmergencyOrganization;
+import business.organization.Organization;
+import business.workQueue.EmergencyPatientRequest;
+import business.workQueue.WorkRequest;
+
 import java.awt.CardLayout;
 import java.awt.Color;
 import java.text.DecimalFormat;
@@ -32,7 +34,9 @@ import org.jfree.chart.plot.PiePlot;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;
-import userinterface.Charts.PieChartJPanel;
+
+import userInterface.Charts.PieChartJPanel;
+
 
 /**
  *

@@ -4,13 +4,10 @@
  * and open the template in the editor.
  */
 package business.enterprise;
-<<<<<<< HEAD
+
 import business.organization.Organization;
 import business.organization.OrganizationDirectory;
-=======
-import business.Organization.Organization;
-import business.Organization.OrganizationDirectory;
->>>>>>> branchA
+
 
 /**
  *
@@ -28,7 +25,7 @@ public abstract class Enterprise extends Organization {
 
 
     public enum EnterpriseType{
-        EmergencyUnit("Emrgncy Unit"), 
+        EmergencyUnit("Emergency Unit"), 
         AccountingUnit("Account Unit"), 
         ManagementUnit("Management Unit"),   /*, FundsOperatingUnit("Funds Operating Unit")*/
         MedicalUnit("Medical Unit"),

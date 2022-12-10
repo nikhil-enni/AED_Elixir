@@ -3,27 +3,29 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.Patient;
+
+package userInterface.Patient;
 import org.apache.log4j.Logger;
 import business.EcoSystem;
-import business.Enterprise.EmergencyUnit;
-import business.Enterprise.Enterprise;
-import static business.Enterprise.Enterprise.EnterpriseType.ManagementUnit;
-import business.Enterprise.ManagementUnit;
-import business.MedicalEmployment.Doctor;
-import business.MedicalEmployment.Patient;
-import business.MedicalEmployment.PatientList;
-import business.Network.Network;
-import business.Organization.DoctorOrganization;
-import business.Organization.EmergencyOrganization;
-import business.Organization.LabOrganization;
-import business.Organization.Organization;
-import business.Organization.PatientOrganization;
-import business.UserAccount.UserAccount;
-import business.WorkQueue.DoctorCheckUpWorkRequest;
-import business.WorkQueue.EmergencyPatientRequest;
-import business.WorkQueue.LabWorkRequest;
-import business.WorkQueue.WorkRequest;
+import business.enterprise.EmergencyUnit;
+import business.enterprise.Enterprise;
+import static business.enterprise.Enterprise.EnterpriseType.ManagementUnit;
+import business.enterprise.ManagementUnit;
+import business.medicalEmployment.Doctor;
+import business.medicalEmployment.Patient;
+import business.medicalEmployment.PatientList;
+import business.network.Network;
+import business.organization.DoctorOrganization;
+import business.organization.EmergencyOrganization;
+import business.organization.LabOrganization;
+import business.organization.Organization;
+import business.organization.PatientOrganization;
+import business.userAccount.UserAccount;
+import business.workQueue.DoctorCheckUpWorkRequest;
+import business.workQueue.EmergencyPatientRequest;
+import business.workQueue.LabWorkRequest;
+import business.workQueue.WorkRequest;
+
 import com.toedter.calendar.JDateChooser;
 import java.util.Date;
 import java.awt.CardLayout;

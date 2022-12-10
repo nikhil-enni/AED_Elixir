@@ -6,11 +6,13 @@
 package userInterface.EquipmentUnitAdminArea;
 
 import business.EcoSystem;
-import business.Employee.Employee;
-import business.Enterprise.Enterprise;
-import business.Organization.Organization;
-import business.Organization.OrganizationDirectory;
-import business.Organization.PatientOrganization;
+
+import business.employee.Employee;
+import business.enterprise.Enterprise;
+import business.organization.Organization;
+import business.organization.OrganizationDirectory;
+import business.organization.PatientOrganization;
+
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 

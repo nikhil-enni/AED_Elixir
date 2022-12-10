@@ -3,16 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.ManagementUnitAdminArea;
 
-import userinterface.EmergencyUnitAdminArea.*;
+package userInterface.ManagementUnitAdminArea;
+
+import userInterface.EmergencyUnitAdminArea.*;
 import business.EcoSystem;
-import business.Employee.Employee;
-import business.Enterprise.Enterprise;
-import business.Organization.DoctorOrganization;
-import business.Organization.Organization;
-import business.Organization.OrganizationDirectory;
-import business.Organization.PatientOrganization;
+import business.employee.Employee;
+import business.enterprise.Enterprise;
+import business.organization.DoctorOrganization;
+import business.organization.Organization;
+import business.organization.OrganizationDirectory;
+import business.organization.PatientOrganization;
+
 import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;

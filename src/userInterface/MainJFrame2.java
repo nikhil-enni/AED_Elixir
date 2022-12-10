@@ -41,14 +41,28 @@ import userInterface.Receptionist.CreatePatientJPanel;
 
 /**
  *
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
  * @author sri_sai_nikhil_enni
 =======
+<<<<<<< HEAD
 import userinterface.Receptionist.CreatePatientJPanel;
 
 /**
  *
  * @author Lingfeng
 >>>>>>> branchA
+=======
+ * @author Lingfeng
+>>>>>>> Stashed changes
+=======
+ * @author Lingfeng
+>>>>>>> Stashed changes
+=======
+ * @author Lingfeng
+>>>>>>> Stashed changes
+>>>>>>> branchN
  */
 public class MainJFrame2 extends javax.swing.JFrame {
 
@@ -56,9 +70,22 @@ public class MainJFrame2 extends javax.swing.JFrame {
      * Creates new form MainJFrame2
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 >>>>>>> branchA
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> branchN
     private EcoSystem system;
     private DB4OUtil dB4OUtil = DB4OUtil.getInstance();
     private UserAccount userAccount;

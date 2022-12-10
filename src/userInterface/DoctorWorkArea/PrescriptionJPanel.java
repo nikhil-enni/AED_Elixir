@@ -3,24 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userInterface.doctorWorkArea;
-import business.Medicine.Prescription;
-import business.Medicine.PrescriptionList;
-import business.EcoSystem;
-import business.Enterprise.Enterprise;
-import business.MedicalEmployment.Doctor;
-import business.MedicalEmployment.Patient;
-import business.Medicine.Medicine;
-import business.Network.Network;
-import business.Organization.DoctorOrganization;
-import business.Organization.MedicineOrganization;
 
-import business.Organization.Organization;
-/////import business.Organization.PharmacyOrganization;
-import business.UserAccount.UserAccount;
-import business.WorkQueue.DoctorWorkRequest;
-//import business.WorkQueue.PharmacyWorkRequest;
-import business.WorkQueue.WorkRequest;
+package userInterface.DoctorWorkArea;
+import business.medicine.Prescription;
+import business.medicine.PrescriptionList;
+import business.EcoSystem;
+import business.enterprise.Enterprise;
+import business.medicalEmployment.Doctor;
+import business.medicalEmployment.Patient;
+import business.medicine.Medicine;
+import business.network.Network;
+import business.organization.DoctorOrganization;
+import business.organization.MedicineOrganization;
+
+import business.organization.Organization;
+/////import Business.Organization.PharmacyOrganization;
+import business.userAccount.UserAccount;
+import business.workQueue.DoctorWorkRequest;
+//import Business.WorkQueue.PharmacyWorkRequest;
+import business.workQueue.WorkRequest;
+
 import java.awt.CardLayout;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -42,7 +44,9 @@ import javax.swing.table.DefaultTableModel;
 import org.apache.log4j.Logger;
 /**
  *
+
  * @author sri_sai_nikhil_enni
+
  */
 public class PrescriptionJPanel extends javax.swing.JPanel {
 
@@ -136,6 +140,8 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         noofDaysTxt = new javax.swing.JSpinner();
         jButton1 = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
+
+        DateChooser = new com.toedter.calendar.JDateChooser();
         jScrollPane1 = new javax.swing.JScrollPane();
         prescriptionJTable = new javax.swing.JTable();
         btnBack = new javax.swing.JButton();
@@ -190,6 +196,9 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
 
         jLabel8.setText("Date: ");
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(235, 422, -1, -1));
+
+        add(DateChooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 422, 167, -1));
+
 
         prescriptionJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -456,6 +465,8 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+
+    private com.toedter.calendar.JDateChooser DateChooser;
     private javax.swing.JButton btnBack;
     private javax.swing.JComboBox<String> cbMedicine;
     private javax.swing.JButton jButton1;

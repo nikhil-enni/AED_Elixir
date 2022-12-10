@@ -3,22 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.Receptionist;
+
+package userInterface.Receptionist;
 
 import business.EcoSystem;
-import business.Employee.Employee;
-import business.Enterprise.Enterprise;
-import business.MedicalEmployment.Doctor;
-import business.MedicalEmployment.DoctorList;
-import business.MedicalEmployment.PatientList;
-import business.Network.Network;
-import business.Organization.DoctorOrganization;
-import business.Organization.Organization;
-import business.Organization.PatientOrganization;
-import business.Role.DoctorRole;
-import business.Role.EmergencyDoctorRole;
-import business.Role.PatientRole;
-import business.UserAccount.UserAccount;
+import business.employee.Employee;
+import business.enterprise.Enterprise;
+import business.medicalEmployment.Doctor;
+import business.medicalEmployment.DoctorList;
+import business.medicalEmployment.PatientList;
+import business.network.Network;
+import business.organization.DoctorOrganization;
+import business.organization.Organization;
+import business.organization.PatientOrganization;
+import business.role.DoctorRole;
+import business.role.EmergencyDoctorRole;
+import business.role.PatientRole;
+import business.userAccount.UserAccount;
+
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.util.Date;

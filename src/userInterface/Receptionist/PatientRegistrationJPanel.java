@@ -3,10 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.Receptionist;
 
-import userinterface.Patient.*;
-import business.MedicalEmployment.Patient;
+package userInterface.Receptionist;
+
+import userInterface.Patient.*;
+import business.medicalEmployment.Patient;
+
 
 /**
  *

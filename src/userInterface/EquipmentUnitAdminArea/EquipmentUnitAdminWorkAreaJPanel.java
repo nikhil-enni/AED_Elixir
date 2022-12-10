@@ -5,13 +5,15 @@
  */
 package userInterface.EquipmentUnitAdminArea;
 
-import userinterface.MedicineUnitAdminArea.*;
+
+import userInterface.MedicineUnitAdminArea.*;
 import business.EcoSystem;
-import business.Enterprise.Enterprise;
+import business.enterprise.Enterprise;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
-import userinterface.ManagementUnitAdminArea.*;
-import userinterface.SystemAdminWorkArea.*;
+import userInterface.ManagementUnitAdminArea.*;
+import userInterface.SystemAdminWorkArea.*;
+
 
 /**
  *

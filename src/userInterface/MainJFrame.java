@@ -7,19 +7,13 @@ package userInterface;
 
 import business.DB4OUtil.DB4OUtil;
 import business.EcoSystem;
-<<<<<<< HEAD
+
 import business.enterprise.Enterprise;
 import business.medicalEmployment.PatientList;
 import business.network.Network;
 import business.organization.Organization;
 import business.userAccount.UserAccount;
-=======
-import business.Enterprise.Enterprise;
-import business.MedicalEmployment.PatientList;
-import business.Network.Network;
-import business.Organization.Organization;
-import business.UserAccount.UserAccount;
->>>>>>> branchA
+
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -27,11 +21,9 @@ import org.apache.log4j.Logger;
 
 /**
  *
-<<<<<<< HEAD
- * @author sri_sai_nikhil_enni
-=======
- * @author amisha03
->>>>>>> branchA
+
+ * @author vaishnaviyadamreddy
+
  */
 public class MainJFrame extends javax.swing.JFrame {
 
@@ -84,30 +76,20 @@ public class MainJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-<<<<<<< HEAD
         container.setBackground(new java.awt.Color(41, 113, 103));
-=======
-        container.setBackground(new java.awt.Color(0, 153, 153));
->>>>>>> branchA
+
         container.setToolTipText("");
         container.setLayout(new java.awt.CardLayout());
 
         loginJPanel.setBackground(new java.awt.Color(41, 113, 103));
         loginJPanel.setPreferredSize(new java.awt.Dimension(1000, 900));
 
-<<<<<<< HEAD
-        jPanel3.setBackground(new java.awt.Color(255, 149, 118));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/usergreen.png"))); // NOI18N
-
-        loginJButton.setBackground(new java.awt.Color(41, 113, 103));
-=======
         jPanel3.setBackground(new java.awt.Color(255, 255, 204));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/usergreen.png"))); // NOI18N
 
         loginJButton.setBackground(new java.awt.Color(0, 153, 153));
->>>>>>> branchA
         loginJButton.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
         loginJButton.setForeground(new java.awt.Color(255, 255, 255));
         loginJButton.setText("LOGIN");
@@ -118,11 +100,8 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-<<<<<<< HEAD
-        logoutJButton.setBackground(new java.awt.Color(41, 113, 103));
-=======
+
         logoutJButton.setBackground(new java.awt.Color(0, 153, 153));
->>>>>>> branchA
         logoutJButton.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
         logoutJButton.setForeground(new java.awt.Color(255, 255, 255));
         logoutJButton.setText("LOGOUT");
@@ -133,15 +112,11 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-<<<<<<< HEAD
-        jPanel1.setBackground(new java.awt.Color(41, 113, 103));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/user.png"))); // NOI18N
-=======
         jPanel1.setBackground(new java.awt.Color(0, 153, 153));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/user.png"))); // NOI18N
->>>>>>> branchA
+
         jLabel2.setText("jLabel2");
 
         userNameJTextField.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 149, 118), 3));
@@ -172,15 +147,11 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-<<<<<<< HEAD
-        jPanel2.setBackground(new java.awt.Color(41, 113, 103));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/password.png"))); // NOI18N
-=======
         jPanel2.setBackground(new java.awt.Color(0, 153, 153));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pictures/password.png"))); // NOI18N
->>>>>>> branchA
+
 
         passwordField.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 149, 118), 3));
 
@@ -189,58 +160,30 @@ public class MainJFrame extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-<<<<<<< HEAD
-                .addContainerGap()
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(passwordField, javax.swing.GroupLayout.DEFAULT_SIZE, 216, Short.MAX_VALUE)
-=======
+
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(passwordField, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE)
->>>>>>> branchA
+
                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-<<<<<<< HEAD
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE)
-                    .addComponent(passwordField))
-                .addContainerGap())
-=======
+
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(passwordField, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
->>>>>>> branchA
+
         );
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(51, Short.MAX_VALUE)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(loginJButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(logoutJButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 274, Short.MAX_VALUE)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addGap(25, 25, 25)
-                                .addComponent(jLabel1)))
-                        .addGap(20, 20, 20))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap())))
-=======
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap(50, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -253,7 +196,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addGap(87, 87, 87)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
->>>>>>> branchA
+
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -279,18 +222,20 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addGap(435, 435, 435)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
 <<<<<<< HEAD
-                .addContainerGap(610, Short.MAX_VALUE))
-=======
+
                 .addContainerGap(593, Short.MAX_VALUE))
->>>>>>> branchA
+
         );
         loginJPanelLayout.setVerticalGroup(
             loginJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(loginJPanelLayout.createSequentialGroup()
                 .addGap(138, 138, 138)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
+
                 .addContainerGap(239, Short.MAX_VALUE))
+
+                .addContainerGap(258, Short.MAX_VALUE))
+
         );
 
         leftPanel.setBackground(new java.awt.Color(255, 149, 118));
