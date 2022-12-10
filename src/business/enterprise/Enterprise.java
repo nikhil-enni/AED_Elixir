@@ -7,6 +7,10 @@ package business.enterprise;
 import business.organization.Organization;
 import business.organization.OrganizationDirectory;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes

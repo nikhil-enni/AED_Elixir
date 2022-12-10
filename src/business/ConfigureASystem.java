@@ -20,7 +20,10 @@ public class ConfigureASystem {
         //have some employees 
         //create user account
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         

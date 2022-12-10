@@ -27,7 +27,11 @@ import userInterface.Receptionist.CreatePatientJPanel;
 /**
  *
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  * @author sri_sai_nikhil_enni
+=======
+ * @author Lingfeng
+>>>>>>> Stashed changes
 =======
  * @author Lingfeng
 >>>>>>> Stashed changes
@@ -38,7 +42,10 @@ public class MainJFrame2 extends javax.swing.JFrame {
      * Creates new form MainJFrame2
      */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     private EcoSystem system;

@@ -7,7 +7,10 @@ package business;
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 import business.enterprise.Enterprise;
@@ -135,7 +138,12 @@ public class EcoSystem extends Organization{
 //    }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public static EcoSystem getBusiness() {
+=======
+
+    public static EcoSystem getbusiness() {
+>>>>>>> Stashed changes
 =======
 
     public static EcoSystem getbusiness() {

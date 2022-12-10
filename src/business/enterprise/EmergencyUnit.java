@@ -14,6 +14,10 @@ import business.role.LabAssistantRole;
 import business.role.PatientRole;
 import business.role.ReceptionistRole;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
