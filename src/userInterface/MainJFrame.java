@@ -19,7 +19,11 @@ import org.apache.log4j.Logger;
 
 /**
  *
+<<<<<<< Updated upstream
  * @author sri_sai_nikhil_enni
+=======
+ * @author vaishnaviyadamreddy
+>>>>>>> Stashed changes
  */
 public class MainJFrame extends javax.swing.JFrame {
 
@@ -209,14 +213,22 @@ public class MainJFrame extends javax.swing.JFrame {
             .addGroup(loginJPanelLayout.createSequentialGroup()
                 .addGap(435, 435, 435)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< Updated upstream
                 .addContainerGap(610, Short.MAX_VALUE))
+=======
+                .addContainerGap(620, Short.MAX_VALUE))
+>>>>>>> Stashed changes
         );
         loginJPanelLayout.setVerticalGroup(
             loginJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(loginJPanelLayout.createSequentialGroup()
                 .addGap(138, 138, 138)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< Updated upstream
                 .addContainerGap(239, Short.MAX_VALUE))
+=======
+                .addContainerGap(258, Short.MAX_VALUE))
+>>>>>>> Stashed changes
         );
 
         leftPanel.setBackground(new java.awt.Color(255, 149, 118));

@@ -5,14 +5,14 @@
 package business.role;
 
 //import Business.Customer.CustomerDirectory;
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.MedicalEmployment.PatientList;
-import Business.Network.Network;
+import business.EcoSystem;
+import business.enterprise.Enterprise;
+import business.medicalEmployment.PatientList;
+import business.network.Network;
 
-import Business.Organization.Organization;
+import business.organization.Organization;
 //import Business.Restaurant.RestaurantDirectory;
-import Business.UserAccount.UserAccount;
+import business.userAccount.UserAccount;
 //import userinterface.RestaurantAdminRole.AdminWorkAreaJPanel;
 import javax.swing.JPanel;
 import userInterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;

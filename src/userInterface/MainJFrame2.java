@@ -26,14 +26,21 @@ import userInterface.Receptionist.CreatePatientJPanel;
 
 /**
  *
+<<<<<<< Updated upstream
  * @author sri_sai_nikhil_enni
+=======
+ * @author Lingfeng
+>>>>>>> Stashed changes
  */
 public class MainJFrame2 extends javax.swing.JFrame {
 
     /**
      * Creates new form MainJFrame2
      */
+<<<<<<< Updated upstream
     
+=======
+>>>>>>> Stashed changes
     private EcoSystem system;
     private DB4OUtil dB4OUtil = DB4OUtil.getInstance();
     private UserAccount userAccount;

@@ -19,7 +19,10 @@ public class ConfigureASystem {
         //initialize some organizations
         //have some employees 
         //create user account
+<<<<<<< Updated upstream
         
+=======
+>>>>>>> Stashed changes
         
         Employee employee = system.getEmployeeDirectory().createEmployee("RRH");
         

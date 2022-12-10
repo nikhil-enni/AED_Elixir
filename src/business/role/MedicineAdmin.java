@@ -11,9 +11,9 @@ import business.network.Network;
 import business.organization.Organization;
 import business.userAccount.UserAccount;
 import javax.swing.JPanel;
-import userInterface.emergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
-import userinterface.medicineUnitAdminArea.MedicineUnitAdminWorkAreaJPanel;
-import userinterface.medicineUnitAdminArea.MedicineUnitAdminWorkAreaJPanel;
+import userInterface.EmergencyUnitAdminArea.EmergencyUnitAdminWorkAreaJPanel;
+import userInterface.MedicineUnitAdminArea.MedicineUnitAdminWorkAreaJPanel;
+import userInterface.MedicineUnitAdminArea.MedicineUnitAdminWorkAreaJPanel;
 
 /**
  *

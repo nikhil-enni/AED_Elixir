@@ -13,6 +13,10 @@ import business.role.EmergencyAdminRole;
 import business.role.LabAssistantRole;
 import business.role.PatientRole;
 import business.role.ReceptionistRole;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 /**
  *

@@ -6,6 +6,10 @@
 package business.enterprise;
 import business.organization.Organization;
 import business.organization.OrganizationDirectory;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 /**
  *
@@ -23,7 +27,7 @@ public abstract class Enterprise extends Organization {
 
 
     public enum EnterpriseType{
-        EmergencyUnit("Emrgncy Unit"), 
+        EmergencyUnit("Emergency Unit"), 
         AccountingUnit("Account Unit"), 
         ManagementUnit("Management Unit"),   /*, FundsOperatingUnit("Funds Operating Unit")*/
         MedicalUnit("Medical Unit"),

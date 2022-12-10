@@ -5,11 +5,11 @@
  */
 package business.organization;
 
-import Business.Medicine.Medicine;
-import Business.Role.LabAssistantRole;
-import Business.Role.MedicineAdmin;
-import Business.Role.MedicineUser;
-import Business.Role.Role;
+import business.medicine.Medicine;
+import business.role.LabAssistantRole;
+import business.role.MedicineAdmin;
+import business.role.MedicineUser;
+import business.role.Role;
 import java.util.ArrayList;
 
 /**
