@@ -27,7 +27,7 @@ import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.data.general.PieDataset;  
 /**
  *
- * @author Sandeep
+ * @author amisha03
  */
 public class PieChartJPanel extends javax.swing.JPanel {
 

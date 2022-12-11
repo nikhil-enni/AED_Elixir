@@ -20,7 +20,7 @@ import userInterface.EmergencyUnitAdminArea.EmergencyUnitManageEmployeeJPanel;
 
 /**
  *
- * @author singh
+ * @author vaishnaviyadamreddy
  */
 public class EquipmentWorkAreaJPanel extends javax.swing.JPanel {
 

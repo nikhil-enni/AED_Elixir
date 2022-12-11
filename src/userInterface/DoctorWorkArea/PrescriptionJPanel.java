@@ -42,7 +42,7 @@ import javax.swing.table.DefaultTableModel;
 import org.apache.log4j.Logger;
 /**
  *
- * @author Sandeep
+ * @author sri_sai_nikhil_enni
  */
 public class PrescriptionJPanel extends javax.swing.JPanel {
 

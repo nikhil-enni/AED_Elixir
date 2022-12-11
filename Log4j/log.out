@@ -450,3 +450,16 @@
 2022-12-11 13:33:17 DEBUG MainJFrame2:333 - User sysadmin Successfully login 
 2022-12-11 14:38:01 INFO  MainJFrame2:332 - User sysadmin Successfully login 
 2022-12-11 14:38:01 DEBUG MainJFrame2:333 - User sysadmin Successfully login 
+2022-12-11 17:49:06 INFO  MainJFrame2:332 - User sysadmin Successfully login 
+2022-12-11 17:49:06 DEBUG MainJFrame2:333 - User sysadmin Successfully login 
+2022-12-11 17:51:28 INFO  MainJFrame2:332 - User sysadmin Successfully login 
+2022-12-11 17:51:28 DEBUG MainJFrame2:333 - User sysadmin Successfully login 
+2022-12-11 17:51:59 INFO  MainJFrame2:332 - User Man Successfully login 
+2022-12-11 17:51:59 DEBUG MainJFrame2:333 - User Man Successfully login 
+2022-12-11 17:53:45 INFO  MainJFrame2:332 - User Rec Successfully login 
+2022-12-11 17:53:45 DEBUG MainJFrame2:333 - User Rec Successfully login 
+2022-12-11 17:53:45 INFO  PatientListJPanel:338 - Receptionist Panel Opening
+2022-12-11 17:53:53 INFO  MainJFrame2:332 - User Man Successfully login 
+2022-12-11 17:53:53 DEBUG MainJFrame2:333 - User Man Successfully login 
+2022-12-11 17:54:20 INFO  MainJFrame2:332 - User Man Successfully login 
+2022-12-11 17:54:20 DEBUG MainJFrame2:333 - User Man Successfully login 

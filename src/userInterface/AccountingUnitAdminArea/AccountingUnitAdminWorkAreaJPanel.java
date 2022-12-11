@@ -15,7 +15,7 @@ import userInterface.SystemAdminWorkArea.*;
 
 /**
  *
- * @author singh
+ * @author vaishnaviyadamreddy
  */
 
 public class AccountingUnitAdminWorkAreaJPanel extends javax.swing.JPanel {

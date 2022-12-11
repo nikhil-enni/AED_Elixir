@@ -21,7 +21,7 @@ import business.utils.Validation;
 
 /**
  *
- * @author ashleshagokhale
+ * @author amisha03
  */
 public class AccountingUnitManageOrganizationsJPanel extends javax.swing.JPanel {
 

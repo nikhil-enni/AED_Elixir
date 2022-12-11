@@ -17,7 +17,7 @@ import userInterface.EquipmentUnitAdminArea.EquipmentUnitManageUsersJPanel;
 
 /**
  *
- * @author ashleshagokhale
+ * @author amisha03
  */
 public class EquipmentUnitAdminWorkArea2JPanel extends javax.swing.JPanel {
 
