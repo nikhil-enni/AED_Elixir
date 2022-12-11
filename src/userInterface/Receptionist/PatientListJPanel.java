@@ -87,8 +87,8 @@ public class PatientListJPanel extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
-        jLabel1.setText("RECEPTIONIST AREA");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(254, 6, -1, 26));
+        jLabel1.setText("RECEPTION");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 0, -1, 26));
 
         tblPatient.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -112,7 +112,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
                 btnCreatePatientActionPerformed(evt);
             }
         });
-        add(btnCreatePatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 261, 184, -1));
+        add(btnCreatePatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 260, 184, -1));
 
         btnUpdatePatient.setBackground(new java.awt.Color(0, 153, 153));
         btnUpdatePatient.setText("View Patient Info");
@@ -121,7 +121,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
                 btnUpdatePatientActionPerformed(evt);
             }
         });
-        add(btnUpdatePatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 260, 184, -1));
+        add(btnUpdatePatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 260, 184, -1));
 
         btnDeletePatient.setBackground(new java.awt.Color(0, 153, 153));
         btnDeletePatient.setText("Delete Patient");
@@ -130,7 +130,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
                 btnDeletePatientActionPerformed(evt);
             }
         });
-        add(btnDeletePatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(547, 261, 184, -1));
+        add(btnDeletePatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 260, 184, -1));
 
         tblDoctor.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -172,7 +172,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
                 btnDeletePatient1ActionPerformed(evt);
             }
         });
-        add(btnDeletePatient1, new org.netbeans.lib.awtextra.AbsoluteConstraints(547, 513, 184, -1));
+        add(btnDeletePatient1, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 510, 184, -1));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 325, 790, 10));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/receptionist.jpg"))); // NOI18N
