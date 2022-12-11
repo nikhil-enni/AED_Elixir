@@ -622,7 +622,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
                         cur.setRecieverNetwork(network);
                         cur.setRecieverOrganization(organization);
                         ua.getWorkQueue().addWorkRequest(cur);
-                         JOptionPane.showMessageDialog(null, "Check up Request create and will no");
+                         JOptionPane.showMessageDialog(null, "Check up Request created");
                    }   
                }
            }

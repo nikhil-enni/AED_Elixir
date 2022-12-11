@@ -59,7 +59,8 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         this.patientList = patientList;
         this.network = network;
         btnUpdate.setVisible(false);
-         txtPatientId.setEditable(false);
+         //txtPatientId.setEditable(false);
+         txtPatientId.setVisible(false);
          txtAssigDoc.setEditable(false);
     }
     
@@ -82,7 +83,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
          cbBloodGrp.setEnabled(false);
          cbGender.setEnabled(false);
          jLabel1.setText("Update Patient");
-         lblMsg.setText("Only location and Doctor can be update from this form");
+         lblMsg.setText("Only location and Doctor can be updated from this form");
     }
      
      
@@ -178,7 +179,6 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         btnUpdate = new javax.swing.JButton();
-        jLabel16 = new javax.swing.JLabel();
         txtPatientId = new javax.swing.JTextField();
         jLabel17 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
@@ -301,9 +301,6 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
             }
         });
         jPanel1.add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 510, 130, -1));
-
-        jLabel16.setText("Patient Id :");
-        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(196, 215, -1, 25));
         jPanel1.add(txtPatientId, new org.netbeans.lib.awtextra.AbsoluteConstraints(296, 213, 278, 30));
 
         jLabel17.setForeground(new java.awt.Color(255, 51, 51));
@@ -359,7 +356,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         jPanel1.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(292, 159, 278, 30));
 
         lblMsg.setForeground(new java.awt.Color(204, 0, 51));
-        jPanel1.add(lblMsg, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 70, 290, 19));
+        jPanel1.add(lblMsg, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, 460, 19));
         jPanel1.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 20, -1, 50));
 
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/patientreg.jpg"))); // NOI18N
@@ -739,7 +736,6 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
