@@ -54,6 +54,7 @@ public class AmbulanceLocationMap extends javax.swing.JPanel {
     private static int zoomValue = 4;
      Browser browser;
     public AmbulanceLocationMap(JPanel userProcessContainer) {
+        try{
         initComponents();
         //System.setProperty("jxbrowser.license.key", "1BNDJDKIKHWOX1U3PXOY2P0DPBSV2UGSQ7X45V01TXXE2EIKFS8QWQD29G8JX7OZ180C02");
           this.userProcessContainer = userProcessContainer;
@@ -73,7 +74,10 @@ public class AmbulanceLocationMap extends javax.swing.JPanel {
       //  JPanel panel = new JPanel(new BorderLayout());
       //  panel.add(view, BorderLayout.CENTER);
         canvasMap.add(view,BorderLayout.CENTER);
-         
+        }
+        catch(Exception e){
+            System.out.print(e);
+        }
 //
 //        JFrame frame = new JFrame();
 //        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

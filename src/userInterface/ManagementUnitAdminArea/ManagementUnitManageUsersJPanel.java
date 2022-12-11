@@ -353,7 +353,8 @@ public class ManagementUnitManageUsersJPanel extends javax.swing.JPanel {
                // {
                     if(organization instanceof AmbulanceOrganization)
                     {
-                        if(txtAmbNum.getText().isEmpty() || txtLocation.getText().isEmpty() )
+                        //if(txtAmbNum.getText().isEmpty() || txtLocation.getText().isEmpty() )
+                        if(txtAmbNum.getText().isEmpty())
                         {
                             JOptionPane.showMessageDialog(null, "PLease enter Ambulance Details !");
                             return;
