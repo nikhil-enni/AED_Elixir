@@ -5,8 +5,13 @@
  */
 package business.enterprise;
 
+<<<<<<< Updated upstream
 import business.role.EquipmentAdmin;
 import business.role.Role;
+=======
+import business.Role.EquipmentAdmin;
+import business.Role.Role;
+>>>>>>> Stashed changes
 import java.util.ArrayList;
 
 /**

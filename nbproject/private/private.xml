@@ -6,16 +6,28 @@
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicalEmployment/Doctor.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicalEmployment/PatientHistory.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/userAccount/UserAccountDirectory.java</file>
+<<<<<<< Updated upstream
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/ui/Login.java</file>
+=======
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/PersonOrganization.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/OrganizationDirectory.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/PatientOrganization.java</file>
+>>>>>>> Stashed changes
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/AmbulanceOrganization.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/BillingOrganization.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/MedicineUnit.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/userAccount/UserAccount.java</file>
+<<<<<<< Updated upstream
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/ui/CityAdminPage.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/AccountingUnit.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicine/Prescription.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/DoctorWorkRequest.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/ui/HomePage.java</file>
+=======
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/AccountingUnit.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/medicine/Prescription.java</file>
+            <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/MedicineOrganization.java</file>
+>>>>>>> Stashed changes
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/AdminOrganizatiion.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/enterprise/EquipmentUnit.java</file>
             <file>file:/Users/vaishnaviyadamreddy/Documents/GitHub/AED_Elixir/src/business/organization/EquipmentOrganization.java</file>
