@@ -152,6 +152,7 @@ public class EquipmentRequestJPanel extends javax.swing.JPanel {
 
         txtTotalCost.setEditable(false);
 
+        btnBillingReq.setBackground(new java.awt.Color(0, 153, 153));
         btnBillingReq.setText("Request for Fund");
         btnBillingReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -181,6 +182,7 @@ public class EquipmentRequestJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnBack.setBackground(new java.awt.Color(0, 153, 153));
         btnBack.setText("<< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

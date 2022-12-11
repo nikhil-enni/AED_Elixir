@@ -142,6 +142,7 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 321, -1, -1));
         add(nameJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 315, 200, 29));
 
+        submitJButton.setBackground(new java.awt.Color(0, 153, 153));
         submitJButton.setText("Submit");
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

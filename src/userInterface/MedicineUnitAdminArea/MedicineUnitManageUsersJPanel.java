@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package userInterface.MedicineUnitAdminArea;
 
 import business.EcoSystem;
@@ -12,14 +11,13 @@ import business.enterprise.Enterprise;
 import business.organization.Organization;
 import business.role.Role;
 import business.userAccount.UserAccount;
-
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author vaishnaviyadamreddy
+ * @author amisha03
  */
 public class MedicineUnitManageUsersJPanel extends javax.swing.JPanel {
 
@@ -195,7 +193,6 @@ public class MedicineUnitManageUsersJPanel extends javax.swing.JPanel {
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 529, -1, 24));
         add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(267, 527, 250, 29));
 
-        createUserJButton.setBackground(new java.awt.Color(255, 255, 255));
         createUserJButton.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         createUserJButton.setForeground(new java.awt.Color(25, 56, 82));
         createUserJButton.setText("Create");

@@ -419,6 +419,7 @@ public class PatientWorkAreaJPanel extends javax.swing.JPanel {
         jLabel4.setText("For Emergency Please click below button, Emeregency Request automatically created");
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 550, 461, -1));
 
+        btnCreateCheckupReq.setBackground(new java.awt.Color(0, 153, 153));
         btnCreateCheckupReq.setText("Create Appoinment for Checkup Request");
         btnCreateCheckupReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

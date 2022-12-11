@@ -7,7 +7,7 @@ package userInterface.EquipmentWorkArea;
 
 /**
  *
- * @author Sandeep
+ * @author amisha03
  */
 class viewJPanel {
     

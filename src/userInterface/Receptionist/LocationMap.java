@@ -56,7 +56,7 @@ public class LocationMap extends javax.swing.JPanel {
         //System.setProperty("jxbrowser.license.key", "1BNDJDKIKHWOX1U3PXOY2P0DPBSV2UGSQ7X45V01TXXE2EIKFS8QWQD29G8JX7OZ180C02");
           this.userProcessContainer = userProcessContainer;
             EngineOptions options =
-                EngineOptions.newBuilder(HARDWARE_ACCELERATED).licenseKey("1BNDJDKIKHWOX1U3PXOY2P0DPBSV2UGSQ7X45V01TXXE2EIKFS8QWQD29G8JX7OZ180C02").build();
+                EngineOptions.newBuilder(HARDWARE_ACCELERATED).licenseKey("1BNDHFSC1G4RX87E3Q0W3D4BQB4V5B6W59XW8N5WPGQUWZ7FO8L4BWTCF6WS6NK9428L4O").build();
         Engine engine = Engine.newInstance(options);
         browser = engine.newBrowser();
         BrowserView view = BrowserView.newInstance(browser);

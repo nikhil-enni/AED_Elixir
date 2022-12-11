@@ -142,6 +142,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(txtheartrate, new org.netbeans.lib.awtextra.AbsoluteConstraints(513, 312, 128, -1));
 
+        btnrequest.setBackground(new java.awt.Color(0, 153, 153));
         btnrequest.setText("Request for Lab Test");
         btnrequest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -150,6 +151,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnrequest, new org.netbeans.lib.awtextra.AbsoluteConstraints(53, 385, -1, -1));
 
+        btnsubmit.setBackground(new java.awt.Color(0, 153, 153));
         btnsubmit.setText("Submit Vital Info");
         btnsubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -166,6 +168,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(599, 76, 96, -1));
 
+        jButton1.setBackground(new java.awt.Color(0, 153, 153));
         jButton1.setText("Write Prescription ");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -179,7 +182,8 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         jLabel5.setText("DOCTOR WORK AREA");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 22, 292, 36));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/doctor2.jpg"))); // NOI18N
+        jLabel6.setBackground(new java.awt.Color(203, 133, 133));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/doctor1.png"))); // NOI18N
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(-5, -4, 810, 490));
     }// </editor-fold>//GEN-END:initComponents
 

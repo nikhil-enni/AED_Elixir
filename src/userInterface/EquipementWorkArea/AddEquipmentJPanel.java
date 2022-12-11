@@ -87,6 +87,7 @@ public class AddEquipmentJPanel extends javax.swing.JPanel {
         txtTotalCost.setEditable(false);
         add(txtTotalCost, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 307, 200, -1));
 
+        jButton1.setBackground(new java.awt.Color(0, 153, 153));
         jButton1.setText("ADD");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -95,6 +96,7 @@ public class AddEquipmentJPanel extends javax.swing.JPanel {
         });
         add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 363, 145, -1));
 
+        btnBack.setBackground(new java.awt.Color(0, 153, 153));
         btnBack.setText("<<Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

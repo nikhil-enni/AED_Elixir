@@ -121,7 +121,7 @@ public class BillingWorkArea extends javax.swing.JPanel {
         lblfund = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 204));
 
         WorkRequestTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -136,6 +136,7 @@ public class BillingWorkArea extends javax.swing.JPanel {
         ));
         jScrollPane2.setViewportView(WorkRequestTable1);
 
+        btnAcknowledge.setBackground(new java.awt.Color(0, 153, 153));
         btnAcknowledge.setText("Acknowledge");
         btnAcknowledge.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -143,6 +144,7 @@ public class BillingWorkArea extends javax.swing.JPanel {
             }
         });
 
+        btnReject.setBackground(new java.awt.Color(0, 153, 153));
         btnReject.setText("Reject Request");
         btnReject.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -150,6 +152,7 @@ public class BillingWorkArea extends javax.swing.JPanel {
             }
         });
 
+        btnAccept.setBackground(new java.awt.Color(0, 153, 153));
         btnAccept.setText("Accept");
         btnAccept.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -157,6 +160,7 @@ public class BillingWorkArea extends javax.swing.JPanel {
             }
         });
 
+        btnCompleteRequest.setBackground(new java.awt.Color(0, 153, 153));
         btnCompleteRequest.setText("Complete Request");
         btnCompleteRequest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

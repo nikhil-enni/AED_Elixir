@@ -105,6 +105,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 97, 649, 133));
 
+        btnCreatePatient.setBackground(new java.awt.Color(0, 153, 153));
         btnCreatePatient.setText("Create Patient");
         btnCreatePatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -113,14 +114,16 @@ public class PatientListJPanel extends javax.swing.JPanel {
         });
         add(btnCreatePatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 261, 184, -1));
 
+        btnUpdatePatient.setBackground(new java.awt.Color(0, 153, 153));
         btnUpdatePatient.setText("View Patient Info");
         btnUpdatePatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnUpdatePatientActionPerformed(evt);
             }
         });
-        add(btnUpdatePatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(357, 261, 184, -1));
+        add(btnUpdatePatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 260, 184, -1));
 
+        btnDeletePatient.setBackground(new java.awt.Color(0, 153, 153));
         btnDeletePatient.setText("Delete Patient");
         btnDeletePatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -144,6 +147,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
 
         add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 362, 649, 133));
 
+        btnCreateDoctor.setBackground(new java.awt.Color(0, 153, 153));
         btnCreateDoctor.setText("Create Doctor");
         btnCreateDoctor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -152,6 +156,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
         });
         add(btnCreateDoctor, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 513, 184, -1));
 
+        btnUpdatePatient1.setBackground(new java.awt.Color(0, 153, 153));
         btnUpdatePatient1.setText("Modify or View Doctor");
         btnUpdatePatient1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -160,6 +165,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
         });
         add(btnUpdatePatient1, new org.netbeans.lib.awtextra.AbsoluteConstraints(353, 513, -1, -1));
 
+        btnDeletePatient1.setBackground(new java.awt.Color(0, 153, 153));
         btnDeletePatient1.setText("Delete Doctor");
         btnDeletePatient1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

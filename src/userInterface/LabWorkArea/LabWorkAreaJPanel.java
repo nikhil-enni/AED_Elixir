@@ -124,6 +124,7 @@ public class LabWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 830, 171));
 
+        btnAcknowledge.setBackground(new java.awt.Color(0, 153, 153));
         btnAcknowledge.setText("Accept Request");
         btnAcknowledge.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -132,6 +133,7 @@ public class LabWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnAcknowledge, new org.netbeans.lib.awtextra.AbsoluteConstraints(52, 351, 160, -1));
 
+        btnReject.setBackground(new java.awt.Color(0, 153, 153));
         btnReject.setText("Reject Request");
         btnReject.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -140,6 +142,7 @@ public class LabWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(282, 351, 160, -1));
 
+        btnProcess.setBackground(new java.awt.Color(0, 153, 153));
         btnProcess.setText("Process Request");
         btnProcess.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,6 +151,7 @@ public class LabWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnProcess, new org.netbeans.lib.awtextra.AbsoluteConstraints(512, 351, 160, -1));
 
+        btnCompleteRequest.setBackground(new java.awt.Color(0, 153, 153));
         btnCompleteRequest.setText("Complete Request");
         btnCompleteRequest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

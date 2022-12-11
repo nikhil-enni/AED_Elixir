@@ -131,6 +131,7 @@ public class EmergencyUnitManageEmployeeJPanel extends javax.swing.JPanel {
         });
         add(nameJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(231, 337, 200, 29));
 
+        addJButton.setBackground(new java.awt.Color(0, 153, 153));
         addJButton.setText("Create Employee");
         addJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

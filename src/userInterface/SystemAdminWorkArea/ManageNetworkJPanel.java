@@ -96,6 +96,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
         jLabel1.setText("Name");
 
+        submitJButton2.setBackground(new java.awt.Color(0, 153, 153));
         submitJButton2.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
         submitJButton2.setText("Submit");
         submitJButton2.addActionListener(new java.awt.event.ActionListener() {

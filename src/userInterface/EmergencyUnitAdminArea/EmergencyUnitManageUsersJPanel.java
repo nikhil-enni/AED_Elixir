@@ -200,7 +200,7 @@ public class EmergencyUnitManageUsersJPanel extends javax.swing.JPanel {
         });
         add(roleJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 408, 200, -1));
 
-        createUserJButton.setBackground(new java.awt.Color(255, 255, 255));
+        createUserJButton.setBackground(new java.awt.Color(0, 153, 153));
         createUserJButton.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         createUserJButton.setForeground(new java.awt.Color(25, 56, 82));
         createUserJButton.setText("Create");

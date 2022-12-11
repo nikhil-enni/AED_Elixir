@@ -96,3 +96,287 @@
 2022-12-09 20:28:24 DEBUG MainJFrame2:335 - User sysadmin Successfully login 
 2022-12-10 16:57:46 INFO  MainJFrame2:353 - User sysadmin Successfully login 
 2022-12-10 16:57:46 DEBUG MainJFrame2:354 - User sysadmin Successfully login 
+2022-12-10 18:00:52 INFO  MainJFrame2:353 - User sysadmin Successfully login 
+2022-12-10 18:00:52 DEBUG MainJFrame2:354 - User sysadmin Successfully login 
+2022-12-10 18:34:55 INFO  MainJFrame2:353 - User sysadmin Successfully login 
+2022-12-10 18:34:55 DEBUG MainJFrame2:354 - User sysadmin Successfully login 
+2022-12-10 18:37:10 INFO  MainJFrame2:353 - User Acc Successfully login 
+2022-12-10 18:37:10 DEBUG MainJFrame2:354 - User Acc Successfully login 
+2022-12-10 18:37:53 INFO  MainJFrame2:353 - User Man Successfully login 
+2022-12-10 18:37:53 DEBUG MainJFrame2:354 - User Man Successfully login 
+2022-12-10 18:38:23 INFO  MainJFrame2:353 - User Rec Successfully login 
+2022-12-10 18:38:23 DEBUG MainJFrame2:354 - User Rec Successfully login 
+2022-12-10 18:38:24 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 18:39:02 INFO  MainJFrame2:353 - User Rec Successfully login 
+2022-12-10 18:39:02 DEBUG MainJFrame2:354 - User Rec Successfully login 
+2022-12-10 18:39:02 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 18:39:02 ERROR PatientListJPanel:372 - java.lang.NullPointerException
+2022-12-10 18:40:18 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 18:40:18 ERROR PatientListJPanel:372 - java.lang.NullPointerException
+2022-12-10 18:40:24 INFO  MainJFrame2:353 - User Man Successfully login 
+2022-12-10 18:40:24 DEBUG MainJFrame2:354 - User Man Successfully login 
+2022-12-10 18:40:55 INFO  MainJFrame2:353 - User DOC Successfully login 
+2022-12-10 18:40:55 DEBUG MainJFrame2:354 - User DOC Successfully login 
+2022-12-10 18:40:55 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 19:17:23 INFO  MainJFrame2:353 - User sysadmin Successfully login 
+2022-12-10 19:17:23 DEBUG MainJFrame2:354 - User sysadmin Successfully login 
+2022-12-10 19:18:14 INFO  MainJFrame2:353 - User sysadmin Successfully login 
+2022-12-10 19:18:14 DEBUG MainJFrame2:354 - User sysadmin Successfully login 
+2022-12-10 19:27:10 INFO  MainJFrame2:334 - User sysadmin Successfully login 
+2022-12-10 19:27:10 DEBUG MainJFrame2:335 - User sysadmin Successfully login 
+2022-12-10 19:29:11 INFO  MainJFrame2:334 - User sysadmin Successfully login 
+2022-12-10 19:29:11 DEBUG MainJFrame2:335 - User sysadmin Successfully login 
+2022-12-10 19:32:27 INFO  MainJFrame2:334 - User sysadmin Successfully login 
+2022-12-10 19:32:27 DEBUG MainJFrame2:335 - User sysadmin Successfully login 
+2022-12-10 19:33:23 INFO  MainJFrame2:334 - User sysadmin Successfully login 
+2022-12-10 19:33:23 DEBUG MainJFrame2:335 - User sysadmin Successfully login 
+2022-12-10 19:42:01 INFO  MainJFrame2:334 - User sysadmin Successfully login 
+2022-12-10 19:42:01 DEBUG MainJFrame2:335 - User sysadmin Successfully login 
+2022-12-10 19:48:54 INFO  MainJFrame2:334 - User sysadmin Successfully login 
+2022-12-10 19:48:54 DEBUG MainJFrame2:335 - User sysadmin Successfully login 
+2022-12-10 19:53:29 INFO  MainJFrame2:334 - User Man Successfully login 
+2022-12-10 19:53:29 DEBUG MainJFrame2:335 - User Man Successfully login 
+2022-12-10 19:56:44 INFO  MainJFrame2:334 - User AmiRec Successfully login 
+2022-12-10 19:56:44 DEBUG MainJFrame2:335 - User AmiRec Successfully login 
+2022-12-10 19:56:45 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 19:57:39 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 20:03:39 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 20:07:14 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 20:08:58 INFO  MainJFrame2:334 - User AmiRec Successfully login 
+2022-12-10 20:08:58 DEBUG MainJFrame2:335 - User AmiRec Successfully login 
+2022-12-10 20:08:58 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 20:10:27 INFO  MainJFrame2:334 - User AmiDoc Successfully login 
+2022-12-10 20:10:27 DEBUG MainJFrame2:335 - User AmiDoc Successfully login 
+2022-12-10 20:11:04 INFO  MainJFrame2:334 - User AmiPai Successfully login 
+2022-12-10 20:11:04 DEBUG MainJFrame2:335 - User AmiPai Successfully login 
+2022-12-10 20:11:04 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:13:45 INFO  MainJFrame2:334 - User AmiDoc Successfully login 
+2022-12-10 20:13:45 DEBUG MainJFrame2:335 - User AmiDoc Successfully login 
+2022-12-10 20:14:55 INFO  MainJFrame2:334 - User AmiDoc Successfully login 
+2022-12-10 20:14:55 DEBUG MainJFrame2:335 - User AmiDoc Successfully login 
+2022-12-10 20:15:33 INFO  MainJFrame2:334 - User AmiRec Successfully login 
+2022-12-10 20:15:33 DEBUG MainJFrame2:335 - User AmiRec Successfully login 
+2022-12-10 20:15:33 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 20:18:02 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 20:18:58 INFO  MainJFrame2:334 - User AmiDOC Successfully login 
+2022-12-10 20:18:58 DEBUG MainJFrame2:335 - User AmiDOC Successfully login 
+2022-12-10 20:19:11 INFO  MainJFrame2:334 - User AmiPai Successfully login 
+2022-12-10 20:19:11 DEBUG MainJFrame2:335 - User AmiPai Successfully login 
+2022-12-10 20:19:11 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:19:35 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:19:35 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:19:35 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:19:35 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:19:35 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:19:35 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:19:36 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:19:36 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:19:36 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:19:36 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:19:36 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:19:36 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:19:37 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:19:37 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:19:37 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:19:40 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:19:40 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:19:40 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:19:40 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:19:40 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:19:40 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:19:40 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:19:40 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:19:40 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:19:41 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:19:41 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:19:41 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:19:41 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:19:41 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:19:41 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:19:51 INFO  MainJFrame2:334 - User AmiPai Successfully login 
+2022-12-10 20:19:51 DEBUG MainJFrame2:335 - User AmiPai Successfully login 
+2022-12-10 20:19:51 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:20:28 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:20:28 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:20:28 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:20:36 INFO  MainJFrame2:334 - User Vaish Successfully login 
+2022-12-10 20:20:36 DEBUG MainJFrame2:335 - User Vaish Successfully login 
+2022-12-10 20:20:36 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:20:45 INFO  MainJFrame2:334 - User AmiRec Successfully login 
+2022-12-10 20:20:45 DEBUG MainJFrame2:335 - User AmiRec Successfully login 
+2022-12-10 20:20:45 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 20:21:44 INFO  MainJFrame2:334 - User PaiVai Successfully login 
+2022-12-10 20:21:44 DEBUG MainJFrame2:335 - User PaiVai Successfully login 
+2022-12-10 20:21:44 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:22:08 INFO  MainJFrame2:334 - User AmiDOC Successfully login 
+2022-12-10 20:22:08 DEBUG MainJFrame2:335 - User AmiDOC Successfully login 
+2022-12-10 20:24:44 INFO  PrescriptionJPanel:367 - Prescritopn Send to Customer
+2022-12-10 20:30:00 INFO  MainJFrame2:334 - User AmiRec Successfully login 
+2022-12-10 20:30:00 DEBUG MainJFrame2:335 - User AmiRec Successfully login 
+2022-12-10 20:30:00 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-10 20:31:45 INFO  MainJFrame2:334 - User AmiDOC Successfully login 
+2022-12-10 20:31:45 DEBUG MainJFrame2:335 - User AmiDOC Successfully login 
+2022-12-10 20:32:03 INFO  MainJFrame2:334 - User Med Successfully login 
+2022-12-10 20:32:03 DEBUG MainJFrame2:335 - User Med Successfully login 
+2022-12-10 20:36:03 INFO  MainJFrame2:334 - User MedUser Successfully login 
+2022-12-10 20:36:03 DEBUG MainJFrame2:335 - User MedUser Successfully login 
+2022-12-10 20:36:03 DEBUG PharmacyWorkArea2:61 - MedUser logged in
+2022-12-10 20:36:23 DEBUG PharmacyWorkArea2:254 - medicine added successfully
+2022-12-10 20:36:53 DEBUG PharmacyWorkArea2:254 - medicine added successfully
+2022-12-10 20:37:02 DEBUG PharmacyWorkArea2:254 - medicine added successfully
+2022-12-10 20:37:10 INFO  MainJFrame2:334 - User LabUser Successfully login 
+2022-12-10 20:37:10 DEBUG MainJFrame2:335 - User LabUser Successfully login 
+2022-12-10 20:37:20 INFO  MainJFrame2:334 - User AmiDOC Successfully login 
+2022-12-10 20:37:20 DEBUG MainJFrame2:335 - User AmiDOC Successfully login 
+2022-12-10 20:37:49 INFO  MainJFrame2:334 - User LabUser Successfully login 
+2022-12-10 20:37:49 DEBUG MainJFrame2:335 - User LabUser Successfully login 
+2022-12-10 20:38:28 INFO  MainJFrame2:334 - User Pranav Successfully login 
+2022-12-10 20:38:28 DEBUG MainJFrame2:335 - User Pranav Successfully login 
+2022-12-10 20:38:28 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-10 20:38:55 INFO  MainJFrame2:334 - User AmiDOC Successfully login 
+2022-12-10 20:38:55 DEBUG MainJFrame2:335 - User AmiDOC Successfully login 
+2022-12-10 20:39:54 INFO  PrescriptionJPanel:367 - Prescritopn Send to Customer
+2022-12-10 20:40:34 DEBUG PrescriptionJPanel:390 - saving prescription details to prescription data.txt
+2022-12-10 20:40:41 DEBUG PrescriptionJPanel:390 - saving prescription details to prescription data.txt
+2022-12-10 20:40:43 INFO  PrescriptionJPanel:367 - Prescritopn Send to Customer
+2022-12-10 20:40:50 DEBUG PrescriptionJPanel:231 - going back to Doctors work area
+2022-12-10 20:41:00 INFO  MainJFrame2:334 - User AmiRec Successfully login 
+2022-12-10 20:41:00 DEBUG MainJFrame2:335 - User AmiRec Successfully login 
+2022-12-10 20:41:00 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-11 00:07:29 INFO  MainJFrame2:334 - User LabUser Successfully login 
+2022-12-11 00:07:29 DEBUG MainJFrame2:335 - User LabUser Successfully login 
+2022-12-11 00:08:18 INFO  MainJFrame2:334 - User Acc Successfully login 
+2022-12-11 00:08:18 DEBUG MainJFrame2:335 - User Acc Successfully login 
+2022-12-11 00:09:09 INFO  MainJFrame2:334 - User Bill Successfully login 
+2022-12-11 00:09:09 DEBUG MainJFrame2:335 - User Bill Successfully login 
+2022-12-11 00:09:27 INFO  MainJFrame2:334 - User Eme Successfully login 
+2022-12-11 00:09:27 DEBUG MainJFrame2:335 - User Eme Successfully login 
+2022-12-11 00:10:02 INFO  MainJFrame2:334 - User EmeUser Successfully login 
+2022-12-11 00:10:02 DEBUG MainJFrame2:335 - User EmeUser Successfully login 
+2022-12-11 00:10:35 INFO  MainJFrame2:334 - User AmiAmb Successfully login 
+2022-12-11 00:10:35 DEBUG MainJFrame2:335 - User AmiAmb Successfully login 
+2022-12-11 00:10:35 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-11 00:10:46 INFO  MainJFrame2:334 - User Man Successfully login 
+2022-12-11 00:10:46 DEBUG MainJFrame2:335 - User Man Successfully login 
+2022-12-11 00:24:10 INFO  MainJFrame2:334 - User sysadmin Successfully login 
+2022-12-11 00:24:10 DEBUG MainJFrame2:335 - User sysadmin Successfully login 
+2022-12-11 00:24:19 INFO  MainJFrame2:334 - User AmiDoc Successfully login 
+2022-12-11 00:24:19 DEBUG MainJFrame2:335 - User AmiDoc Successfully login 
+2022-12-11 00:30:39 INFO  MainJFrame2:334 - User EmeUser Successfully login 
+2022-12-11 00:30:39 DEBUG MainJFrame2:335 - User EmeUser Successfully login 
+2022-12-11 00:30:53 INFO  MainJFrame2:334 - User AmiPai Successfully login 
+2022-12-11 00:30:53 DEBUG MainJFrame2:335 - User AmiPai Successfully login 
+2022-12-11 00:30:53 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-11 00:31:02 INFO  MainJFrame2:334 - User EmeUser Successfully login 
+2022-12-11 00:31:02 DEBUG MainJFrame2:335 - User EmeUser Successfully login 
+2022-12-11 00:32:14 INFO  MainJFrame2:334 - User AmiAmb Successfully login 
+2022-12-11 00:32:14 DEBUG MainJFrame2:335 - User AmiAmb Successfully login 
+2022-12-11 00:32:14 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-11 00:32:35 INFO  MainJFrame2:334 - User Man Successfully login 
+2022-12-11 00:32:35 DEBUG MainJFrame2:335 - User Man Successfully login 
+2022-12-11 00:34:37 INFO  MainJFrame2:334 - User sysadmin Successfully login 
+2022-12-11 00:34:37 DEBUG MainJFrame2:335 - User sysadmin Successfully login 
+2022-12-11 00:35:25 INFO  MainJFrame2:334 - User sysadmin Successfully login 
+2022-12-11 00:35:25 DEBUG MainJFrame2:335 - User sysadmin Successfully login 
+2022-12-11 00:42:49 INFO  MainJFrame2:331 - User LabUser Successfully login 
+2022-12-11 00:42:49 DEBUG MainJFrame2:332 - User LabUser Successfully login 
+2022-12-11 00:43:25 INFO  MainJFrame2:331 - User AmiDoc Successfully login 
+2022-12-11 00:43:25 DEBUG MainJFrame2:332 - User AmiDoc Successfully login 
+2022-12-11 00:46:31 INFO  MainJFrame2:331 - User AmiDoc Successfully login 
+2022-12-11 00:46:31 DEBUG MainJFrame2:332 - User AmiDoc Successfully login 
+2022-12-11 00:46:40 INFO  MainJFrame2:331 - User AmiPai Successfully login 
+2022-12-11 00:46:40 DEBUG MainJFrame2:332 - User AmiPai Successfully login 
+2022-12-11 00:46:40 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-11 00:47:29 INFO  MainJFrame2:331 - User AmiDoc Successfully login 
+2022-12-11 00:47:29 DEBUG MainJFrame2:332 - User AmiDoc Successfully login 
+2022-12-11 00:47:48 INFO  MainJFrame2:331 - User Pranav Successfully login 
+2022-12-11 00:47:48 DEBUG MainJFrame2:332 - User Pranav Successfully login 
+2022-12-11 00:47:48 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-11 00:48:56 INFO  MainJFrame2:331 - User AmiDoc Successfully login 
+2022-12-11 00:48:56 DEBUG MainJFrame2:332 - User AmiDoc Successfully login 
+2022-12-11 00:49:17 INFO  MainJFrame2:331 - User AmiDOC Successfully login 
+2022-12-11 00:49:17 DEBUG MainJFrame2:332 - User AmiDOC Successfully login 
+2022-12-11 00:58:44 INFO  MainJFrame2:348 - User Man Successfully login 
+2022-12-11 00:58:44 DEBUG MainJFrame2:349 - User Man Successfully login 
+2022-12-11 00:59:18 INFO  MainJFrame2:348 - User AmiPai Successfully login 
+2022-12-11 00:59:18 DEBUG MainJFrame2:349 - User AmiPai Successfully login 
+2022-12-11 00:59:18 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-11 00:59:44 INFO  MainJFrame2:348 - User AmiPai Successfully login 
+2022-12-11 00:59:44 DEBUG MainJFrame2:349 - User AmiPai Successfully login 
+2022-12-11 00:59:44 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-11 01:00:53 INFO  MainJFrame2:332 - User AmiPai Successfully login 
+2022-12-11 01:00:53 DEBUG MainJFrame2:333 - User AmiPai Successfully login 
+2022-12-11 01:00:53 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-11 01:01:10 INFO  MainJFrame2:332 - User Pranav Successfully login 
+2022-12-11 01:01:10 DEBUG MainJFrame2:333 - User Pranav Successfully login 
+2022-12-11 01:01:10 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-11 01:01:25 INFO  MainJFrame2:332 - User AmiDOC Successfully login 
+2022-12-11 01:01:25 DEBUG MainJFrame2:333 - User AmiDOC Successfully login 
+2022-12-11 01:02:17 INFO  MainJFrame2:332 - User LabUser Successfully login 
+2022-12-11 01:02:17 DEBUG MainJFrame2:333 - User LabUser Successfully login 
+2022-12-11 01:03:53 INFO  MainJFrame2:332 - User sysadmin Successfully login 
+2022-12-11 01:03:53 DEBUG MainJFrame2:333 - User sysadmin Successfully login 
+2022-12-11 01:08:40 INFO  MainJFrame2:332 - User Man Successfully login 
+2022-12-11 01:08:40 DEBUG MainJFrame2:333 - User Man Successfully login 
+2022-12-11 01:10:35 INFO  MainJFrame2:332 - User Rec Successfully login 
+2022-12-11 01:10:35 DEBUG MainJFrame2:333 - User Rec Successfully login 
+2022-12-11 01:10:35 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-11 01:10:50 INFO  MainJFrame2:332 - User Med Successfully login 
+2022-12-11 01:10:50 DEBUG MainJFrame2:333 - User Med Successfully login 
+2022-12-11 01:12:01 INFO  MainJFrame2:332 - User Rec Successfully login 
+2022-12-11 01:12:01 DEBUG MainJFrame2:333 - User Rec Successfully login 
+2022-12-11 01:12:01 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-11 01:12:47 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-11 01:17:01 INFO  MainJFrame2:332 - User sysadmin Successfully login 
+2022-12-11 01:17:01 DEBUG MainJFrame2:333 - User sysadmin Successfully login 
+2022-12-11 01:17:16 INFO  MainJFrame2:332 - User Rec Successfully login 
+2022-12-11 01:17:16 DEBUG MainJFrame2:333 - User Rec Successfully login 
+2022-12-11 01:17:16 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-11 01:17:50 INFO  PatientListJPanel:332 - Receptionist Panel Opening
+2022-12-11 01:18:54 INFO  MainJFrame2:332 - User Aisha Successfully login 
+2022-12-11 01:18:54 DEBUG MainJFrame2:333 - User Aisha Successfully login 
+2022-12-11 01:18:54 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-11 01:19:13 INFO  MainJFrame2:332 - User NikhilDOC Successfully login 
+2022-12-11 01:19:13 DEBUG MainJFrame2:333 - User NikhilDOC Successfully login 
+2022-12-11 01:20:20 INFO  MainJFrame2:332 - User NikhilDOC Successfully login 
+2022-12-11 01:20:20 DEBUG MainJFrame2:333 - User NikhilDOC Successfully login 
+2022-12-11 01:20:28 INFO  MainJFrame2:332 - User MedUser Successfully login 
+2022-12-11 01:20:28 DEBUG MainJFrame2:333 - User MedUser Successfully login 
+2022-12-11 01:20:29 DEBUG PharmacyWorkArea2:61 - MedUser logged in
+2022-12-11 01:20:38 DEBUG PharmacyWorkArea2:254 - medicine added successfully
+2022-12-11 01:20:49 DEBUG PharmacyWorkArea2:254 - medicine added successfully
+2022-12-11 01:20:57 DEBUG PharmacyWorkArea2:254 - medicine added successfully
+2022-12-11 01:21:09 INFO  MainJFrame2:332 - User NikhilDOC Successfully login 
+2022-12-11 01:21:09 DEBUG MainJFrame2:333 - User NikhilDOC Successfully login 
+2022-12-11 01:21:25 DEBUG PrescriptionJPanel:390 - saving prescription details to prescription data.txt
+2022-12-11 01:21:28 INFO  PrescriptionJPanel:367 - Prescritopn Send to Customer
+2022-12-11 01:26:39 INFO  MainJFrame2:332 - User Aisha Successfully login 
+2022-12-11 01:26:39 DEBUG MainJFrame2:333 - User Aisha Successfully login 
+2022-12-11 01:26:39 INFO  PatientWorkAreaJPanel:102 - Info for populatePatientFields
+2022-12-11 01:26:49 INFO  MainJFrame2:332 - User NikhilDOC Successfully login 
+2022-12-11 01:26:49 DEBUG MainJFrame2:333 - User NikhilDOC Successfully login 
+2022-12-11 01:27:02 DEBUG PrescriptionJPanel:390 - Saving prescription details to prescription data.txt
+2022-12-11 01:27:03 INFO  PrescriptionJPanel:367 - Prescription Send to Customer
+2022-12-11 01:27:46 DEBUG PrescriptionJPanel:231 - going back to Doctors work area
+2022-12-11 01:28:19 INFO  MainJFrame2:332 - User LabUser Successfully login 
+2022-12-11 01:28:19 DEBUG MainJFrame2:333 - User LabUser Successfully login 
+2022-12-11 01:29:27 INFO  MainJFrame2:332 - User Equip Successfully login 
+2022-12-11 01:29:27 DEBUG MainJFrame2:333 - User Equip Successfully login 
+2022-12-11 01:30:32 INFO  MainJFrame2:332 - User Acc Successfully login 
+2022-12-11 01:30:32 DEBUG MainJFrame2:333 - User Acc Successfully login 
+2022-12-11 01:31:36 INFO  MainJFrame2:332 - User Bill Successfully login 
+2022-12-11 01:31:36 DEBUG MainJFrame2:333 - User Bill Successfully login 
+2022-12-11 01:32:00 INFO  MainJFrame2:332 - User Equip Successfully login 
+2022-12-11 01:32:00 DEBUG MainJFrame2:333 - User Equip Successfully login 
+2022-12-11 01:32:33 INFO  MainJFrame2:332 - User Bill Successfully login 
+2022-12-11 01:32:33 DEBUG MainJFrame2:333 - User Bill Successfully login 
+2022-12-11 01:33:28 INFO  MainJFrame2:332 - User Equip Successfully login 
+2022-12-11 01:33:28 DEBUG MainJFrame2:333 - User Equip Successfully login 
+2022-12-11 01:33:55 INFO  MainJFrame2:332 - User Eme Successfully login 
+2022-12-11 01:33:55 DEBUG MainJFrame2:333 - User Eme Successfully login 
+2022-12-11 01:34:41 INFO  MainJFrame2:332 - User EmeUser Successfully login 
+2022-12-11 01:34:41 DEBUG MainJFrame2:333 - User EmeUser Successfully login 
+2022-12-11 01:54:11 INFO  MainJFrame2:332 - User sysadmin Successfully login 
+2022-12-11 01:54:11 DEBUG MainJFrame2:333 - User sysadmin Successfully login 
+2022-12-11 01:55:16 INFO  MainJFrame2:332 - User sysadmin Successfully login 
+2022-12-11 01:55:16 DEBUG MainJFrame2:333 - User sysadmin Successfully login 

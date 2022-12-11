@@ -118,6 +118,8 @@ public class EmergencyPatientAdminWorkArea extends javax.swing.JPanel {
         btnRefreshTbl = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(255, 255, 204));
+
         WorkRequestTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null, null, null},
@@ -136,6 +138,7 @@ public class EmergencyPatientAdminWorkArea extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(WorkRequestTable);
 
+        btnAcknowledge.setBackground(new java.awt.Color(0, 153, 153));
         btnAcknowledge.setText("Accept Request");
         btnAcknowledge.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -143,6 +146,7 @@ public class EmergencyPatientAdminWorkArea extends javax.swing.JPanel {
             }
         });
 
+        btnReject.setBackground(new java.awt.Color(0, 153, 153));
         btnReject.setText("Reject Request");
         btnReject.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -150,6 +154,7 @@ public class EmergencyPatientAdminWorkArea extends javax.swing.JPanel {
             }
         });
 
+        btnProcess.setBackground(new java.awt.Color(0, 153, 153));
         btnProcess.setText("Process Request");
         btnProcess.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -157,6 +162,7 @@ public class EmergencyPatientAdminWorkArea extends javax.swing.JPanel {
             }
         });
 
+        btnCompleteRequest.setBackground(new java.awt.Color(0, 153, 153));
         btnCompleteRequest.setText("Complete Request");
         btnCompleteRequest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -164,6 +170,7 @@ public class EmergencyPatientAdminWorkArea extends javax.swing.JPanel {
             }
         });
 
+        btnAssigDoc.setBackground(new java.awt.Color(0, 153, 153));
         btnAssigDoc.setText("Assign Doctor");
         btnAssigDoc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -188,6 +195,7 @@ public class EmergencyPatientAdminWorkArea extends javax.swing.JPanel {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel1.setText("EMERGENCY CHILD REQUEST");
 
+        btnAmbulance.setBackground(new java.awt.Color(0, 153, 153));
         btnAmbulance.setText("Assigned Ambulance");
         btnAmbulance.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -195,6 +203,7 @@ public class EmergencyPatientAdminWorkArea extends javax.swing.JPanel {
             }
         });
 
+        btnClear.setBackground(new java.awt.Color(0, 153, 153));
         btnClear.setText("Clear");
         btnClear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -202,6 +211,7 @@ public class EmergencyPatientAdminWorkArea extends javax.swing.JPanel {
             }
         });
 
+        btnRefreshTbl.setBackground(new java.awt.Color(0, 153, 153));
         btnRefreshTbl.setText("Refresh");
         btnRefreshTbl.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -186,6 +186,8 @@ public class RequestLabTestJPanel extends javax.swing.JPanel {
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 408, -1, -1));
         add(txtMessage, new org.netbeans.lib.awtextra.AbsoluteConstraints(308, 403, 189, -1));
 
+        requestTestJButton.setBackground(new java.awt.Color(0, 153, 153));
+        requestTestJButton.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
         requestTestJButton.setText("Request Test");
         requestTestJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -194,6 +196,8 @@ public class RequestLabTestJPanel extends javax.swing.JPanel {
         });
         add(requestTestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(308, 459, 175, -1));
 
+        backJButton.setBackground(new java.awt.Color(0, 153, 153));
+        backJButton.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
         backJButton.setText("<<Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

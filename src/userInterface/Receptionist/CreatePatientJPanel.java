@@ -237,6 +237,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(txtUserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 104, 278, 30));
 
+        btnPatientSave.setBackground(new java.awt.Color(0, 153, 153));
         btnPatientSave.setText("Save");
         btnPatientSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -245,6 +246,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         });
         jPanel1.add(btnPatientSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 560, 130, -1));
 
+        jButton2.setBackground(new java.awt.Color(0, 153, 153));
         jButton2.setText("<< Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -291,6 +293,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         jLabel15.setText("*");
         jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 567, 17, -1));
 
+        btnUpdate.setBackground(new java.awt.Color(0, 153, 153));
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -307,12 +310,13 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         jLabel17.setText("*");
         jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 220, 17, -1));
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/patient.jpg"))); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/patient.jpg"))); // NOI18N
         jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 777, -1, 150));
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/EmergencyHospitalSign.jpg"))); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/EmergencyHospitalSign.jpg"))); // NOI18N
         jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 5, -1, 77));
 
+        jButton1.setBackground(new java.awt.Color(0, 153, 153));
         jButton1.setText("Location");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -325,6 +329,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 665, -1, -1));
         jPanel1.add(txtAssigDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(305, 665, 278, 30));
 
+        jButton3.setBackground(new java.awt.Color(0, 153, 153));
         jButton3.setText("Assign Doctor");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -665,8 +670,8 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
     {
         System.out.println("Inside Email ");
          String to = emailAddress;
-        String from = "donotreplymedicalemergency@gmail.com";
-        String pass = "Password@123";
+        String from = "donotreplyelixir@gmail.com";
+        String pass = "uyvwvyqyuyrqjtdo";
 // Assuming you are sending email from localhost
 // String host = "192.168.0.16";
 

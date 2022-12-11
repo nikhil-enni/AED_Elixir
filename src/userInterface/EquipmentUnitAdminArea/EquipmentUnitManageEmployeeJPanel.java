@@ -121,6 +121,7 @@ public class EquipmentUnitManageEmployeeJPanel extends javax.swing.JPanel {
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 304, -1, -1));
         add(nameJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(301, 298, 213, 29));
 
+        addJButton.setBackground(new java.awt.Color(0, 153, 153));
         addJButton.setText("Create Employee");
         addJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -160,6 +160,7 @@ public class PharmacyWorkArea extends javax.swing.JPanel {
         });
         add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(363, 459, 250, 30));
 
+        btnAddMedicine.setBackground(new java.awt.Color(0, 153, 153));
         btnAddMedicine.setText("Add Medicine");
         btnAddMedicine.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

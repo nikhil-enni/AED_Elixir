@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.SystemAdminWorkArea;
+package userInterface.SystemAdminWorkArea;
 
 /**
  *
@@ -35,8 +35,9 @@ public class ManageAdminWorkAreaJPanel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
 
-        jPanel1.setBackground(new java.awt.Color(255, 102, 102));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
 
+        jLabel1.setBackground(new java.awt.Color(0, 153, 153));
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("SYSTEM ADMIN WORK AREA");
 
@@ -49,7 +50,7 @@ public class ManageAdminWorkAreaJPanel extends javax.swing.JPanel {
         btnManageEnterprise.setFont(new java.awt.Font("Segoe UI", 1, 11)); // NOI18N
         btnManageEnterprise.setText("MANAGE ENTERPRISE");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/Network.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/Network.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

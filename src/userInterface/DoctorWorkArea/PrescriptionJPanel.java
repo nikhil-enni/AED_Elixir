@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package userInterface.DoctorWorkArea;
 import business.medicine.Prescription;
 import business.medicine.PrescriptionList;
@@ -22,7 +21,6 @@ import business.userAccount.UserAccount;
 import business.workQueue.DoctorWorkRequest;
 //import Business.WorkQueue.PharmacyWorkRequest;
 import business.workQueue.WorkRequest;
-
 import java.awt.CardLayout;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -44,16 +42,14 @@ import javax.swing.table.DefaultTableModel;
 import org.apache.log4j.Logger;
 /**
  *
-
- * @author sri_sai_nikhil_enni
-
+ * @author Sandeep
  */
 public class PrescriptionJPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form PrescriptionJPanel
      */
-      private Organization organization;
+    private Organization organization;
     private Enterprise enterprise;
 
     private UserAccount userAccount;
@@ -140,14 +136,13 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         noofDaysTxt = new javax.swing.JSpinner();
         jButton1 = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
-
         DateChooser = new com.toedter.calendar.JDateChooser();
         jScrollPane1 = new javax.swing.JScrollPane();
         prescriptionJTable = new javax.swing.JTable();
         btnBack = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
@@ -186,6 +181,7 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(248, 371, -1, -1));
         add(noofDaysTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 366, 167, -1));
 
+        jButton1.setBackground(new java.awt.Color(0, 153, 153));
         jButton1.setText("Add to Prescription");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -196,10 +192,9 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
 
         jLabel8.setText("Date: ");
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(235, 422, -1, -1));
-
         add(DateChooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 422, 167, -1));
 
-
+        prescriptionJTable.setBackground(new java.awt.Color(0, 153, 153));
         prescriptionJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
@@ -215,6 +210,7 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(117, 557, 560, 139));
 
+        btnBack.setBackground(new java.awt.Color(0, 153, 153));
         btnBack.setText("<<Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -223,6 +219,7 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         });
         add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 510, 190, -1));
 
+        jButton2.setBackground(new java.awt.Color(0, 153, 153));
         jButton2.setText("Send Prescription To Customer");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -371,7 +368,7 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         
-        log.info("Prescritopn Send to Customer");
+        log.info("Prescription Send to Customer");
         String prescrip ="";
         for (Prescription prescription : patient.getPrescriptionlist().getPrescriptionList()) {
            
@@ -394,7 +391,7 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
             pw.println("Medicine Name - " + medicine+", No of Times "+times + ", No of Days"+days);
             pw.flush();
             pw.close();
-            log.debug("saving prescription details to prescription data.txt");
+            log.debug("Saving prescription details to prescription data.txt");
         } catch (IOException ex) {
             java.util.logging.Logger.getLogger(PrescriptionJPanel.class.getName()).log(Level.SEVERE, null, ex);
             log.error("prescription data.txt" +ex);
@@ -407,8 +404,10 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
     {
         System.out.println("Inside Email ");
          String to = emailAddress;
-        String from = "donotreplymedicalemergency@gmail.com";
-        String pass = "Password@123";
+         String from = "donotreplyelixir@gmail.com";
+         String pass = "uyvwvyqyuyrqjtdo";
+        //String from = "donotreplymedicalemergency@gmail.com";
+        //String pass = "Password@123";
 // Assuming you are sending email from localhost
 // String host = "192.168.0.16";
 
@@ -465,7 +464,6 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-
     private com.toedter.calendar.JDateChooser DateChooser;
     private javax.swing.JButton btnBack;
     private javax.swing.JComboBox<String> cbMedicine;

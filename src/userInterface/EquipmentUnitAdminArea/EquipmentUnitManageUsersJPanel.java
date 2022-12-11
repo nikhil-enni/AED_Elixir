@@ -6,13 +6,11 @@
 package userInterface.EquipmentUnitAdminArea;
 
 import business.EcoSystem;
-
 import business.employee.Employee;
 import business.enterprise.Enterprise;
 import business.organization.Organization;
 import business.role.Role;
 import business.userAccount.UserAccount;
-
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
@@ -187,7 +185,6 @@ public class EquipmentUnitManageUsersJPanel extends javax.swing.JPanel {
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(167, 521, -1, 24));
         add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(276, 518, 200, 29));
 
-        createUserJButton.setBackground(new java.awt.Color(255, 255, 255));
         createUserJButton.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         createUserJButton.setForeground(new java.awt.Color(25, 56, 82));
         createUserJButton.setText("Create");

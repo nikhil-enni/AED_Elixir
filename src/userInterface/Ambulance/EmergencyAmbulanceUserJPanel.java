@@ -100,6 +100,7 @@ public class EmergencyAmbulanceUserJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(255, 204, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         WorkRequestTable.setModel(new javax.swing.table.DefaultTableModel(

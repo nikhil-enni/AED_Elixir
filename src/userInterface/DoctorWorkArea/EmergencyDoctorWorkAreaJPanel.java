@@ -137,6 +137,8 @@ public class EmergencyDoctorWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(49, 81, 778, 169));
 
+        btnAcknowledge.setBackground(new java.awt.Color(0, 153, 153));
+        btnAcknowledge.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
         btnAcknowledge.setText("Accept Request");
         btnAcknowledge.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -145,6 +147,8 @@ public class EmergencyDoctorWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnAcknowledge, new org.netbeans.lib.awtextra.AbsoluteConstraints(49, 280, 150, -1));
 
+        btnReject.setBackground(new java.awt.Color(0, 153, 153));
+        btnReject.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
         btnReject.setText("Reject Request");
         btnReject.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,6 +157,8 @@ public class EmergencyDoctorWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnReject, new org.netbeans.lib.awtextra.AbsoluteConstraints(239, 280, 150, -1));
 
+        btnCompleteRequest.setBackground(new java.awt.Color(0, 153, 153));
+        btnCompleteRequest.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
         btnCompleteRequest.setText("Complete Request");
         btnCompleteRequest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -161,6 +167,8 @@ public class EmergencyDoctorWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnCompleteRequest, new org.netbeans.lib.awtextra.AbsoluteConstraints(619, 280, 150, -1));
 
+        btnProcess.setBackground(new java.awt.Color(0, 153, 153));
+        btnProcess.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
         btnProcess.setText("Process Request");
         btnProcess.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -174,6 +182,7 @@ public class EmergencyDoctorWorkAreaJPanel extends javax.swing.JPanel {
         jLabel1.setText("EMERGENCY DOCTOR WORK AREA");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 19, 857, 32));
 
+        jLabel2.setBackground(new java.awt.Color(204, 204, 204));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/doctor2.jpg"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-5, 0, 880, 600));
     }// </editor-fold>//GEN-END:initComponents

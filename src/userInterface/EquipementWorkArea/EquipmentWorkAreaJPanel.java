@@ -106,6 +106,7 @@ public class EquipmentWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(91, 89, 668, 183));
 
+        jButton1.setBackground(new java.awt.Color(0, 153, 153));
         jButton1.setText("Add New Equipment");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,6 +115,7 @@ public class EquipmentWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(133, 322, 220, -1));
 
+        jButton2.setBackground(new java.awt.Color(0, 153, 153));
         jButton2.setText("Request for Equipment");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

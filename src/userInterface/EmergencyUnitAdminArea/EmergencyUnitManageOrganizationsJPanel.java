@@ -115,6 +115,7 @@ public class EmergencyUnitManageOrganizationsJPanel extends javax.swing.JPanel {
         });
         add(txtOrgName, new org.netbeans.lib.awtextra.AbsoluteConstraints(293, 327, 200, 30));
 
+        btnAddOrg.setBackground(new java.awt.Color(0, 153, 153));
         btnAddOrg.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         btnAddOrg.setText("Add Organization");
         btnAddOrg.addActionListener(new java.awt.event.ActionListener() {

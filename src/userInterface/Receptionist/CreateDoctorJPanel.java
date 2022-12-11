@@ -163,6 +163,7 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(189, 326, -1, -1));
         jPanel1.add(txtSpecilization, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 321, 209, -1));
 
+        btnCreate.setBackground(new java.awt.Color(0, 153, 153));
         btnCreate.setText("Create ");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,6 +179,7 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         jLabel6.setText("Password :");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(226, 158, -1, -1));
 
+        jButton2.setBackground(new java.awt.Color(0, 153, 153));
         jButton2.setText("<< Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -190,11 +192,12 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 377, -1, -1));
         jPanel1.add(chkboxEmeDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 377, 209, -1));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/doctor-clinic-illustration_1270-69.jpg"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/doctor-clinic-illustration_1270-69.jpg"))); // NOI18N
         jLabel8.setText("jLabel8");
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 6, 134, 117));
         jPanel1.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(322, 153, 209, -1));
 
+        btnUpdate.setBackground(new java.awt.Color(0, 153, 153));
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

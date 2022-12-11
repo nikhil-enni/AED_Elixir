@@ -11,7 +11,7 @@ import business.enterprise.Enterprise;
 
 import java.awt.CardLayout;
 import javax.swing.JPanel;
-import userinterface.SystemAdminWorkArea.*;
+import userInterface.SystemAdminWorkArea.*;
 
 /**
  *
@@ -55,7 +55,7 @@ public class ManagementUnit1AdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jMenuItem1.setText("jMenuItem1");
 
-        jPanel1.setBackground(new java.awt.Color(255, 102, 102));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("MANAGEMEMENT ADMIN");
@@ -84,9 +84,7 @@ public class ManagementUnit1AdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/business/Images/folder/ManagementAdmin.png"))); // NOI18N
-
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Business/Images/folder/ManagementAdmin.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
