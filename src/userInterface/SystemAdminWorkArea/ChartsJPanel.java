@@ -134,11 +134,11 @@ public class ChartsJPanel extends javax.swing.JPanel {
          
     ((PiePlot) chart.getPlot()).setLabelGenerator(labelGenerator);  
     
-          ChartFrame chartFrame = new ChartFrame("Medicines",chart,true);
+          ChartFrame chartFrame = new ChartFrame("Equipments",chart,true);
         chartFrame.setVisible(true);
         chartFrame.setSize(2000,1000);
-        CategoryPlot plot = chart.getCategoryPlot();
-        plot.setRangeGridlinePaint(Color.BLACK);
+//        CategoryPlot plot = chart.getCategoryPlot();
+       // plot.setRangeGridlinePaint(Color.BLACK);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -205,8 +205,8 @@ public class ChartsJPanel extends javax.swing.JPanel {
         ChartFrame chartFrame = new ChartFrame("Equipments",chart,true);
         chartFrame.setVisible(true);
         chartFrame.setSize(2000,1000);
-        CategoryPlot plot = chart.getCategoryPlot();
-        plot.setRangeGridlinePaint(Color.BLACK);
+        //CategoryPlot plot = chart.getCategoryPlot();
+        //plot.setRangeGridlinePaint(Color.BLACK);
 
     }//GEN-LAST:event_jButton2ActionPerformed
 
