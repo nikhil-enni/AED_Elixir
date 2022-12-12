@@ -202,7 +202,7 @@ public class ChartsJPanel extends javax.swing.JPanel {
             PlotOrientation.VERTICAL,
             true,true,false
         );
-        ChartFrame chartFrame = new ChartFrame("Medicines",chart,true);
+        ChartFrame chartFrame = new ChartFrame("Equipments",chart,true);
         chartFrame.setVisible(true);
         chartFrame.setSize(2000,1000);
         CategoryPlot plot = chart.getCategoryPlot();
