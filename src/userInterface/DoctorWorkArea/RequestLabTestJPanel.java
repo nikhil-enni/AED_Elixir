@@ -155,7 +155,7 @@ public class RequestLabTestJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(tblLabRequest);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 88, 663, 129));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 88, 780, 129));
 
         jLabel6.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);

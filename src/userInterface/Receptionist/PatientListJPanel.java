@@ -103,7 +103,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(tblPatient);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 97, 649, 133));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 97, 810, 133));
 
         btnCreatePatient.setBackground(new java.awt.Color(0, 153, 153));
         btnCreatePatient.setText("Create Patient");
@@ -145,7 +145,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
         ));
         jScrollPane2.setViewportView(tblDoctor);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 362, 649, 133));
+        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 362, 810, 133));
 
         btnCreateDoctor.setBackground(new java.awt.Color(0, 153, 153));
         btnCreateDoctor.setText("Create Doctor");
@@ -163,7 +163,7 @@ public class PatientListJPanel extends javax.swing.JPanel {
                 btnUpdatePatient1ActionPerformed(evt);
             }
         });
-        add(btnUpdatePatient1, new org.netbeans.lib.awtextra.AbsoluteConstraints(353, 513, -1, -1));
+        add(btnUpdatePatient1, new org.netbeans.lib.awtextra.AbsoluteConstraints(329, 510, 180, -1));
 
         btnDeletePatient1.setBackground(new java.awt.Color(0, 153, 153));
         btnDeletePatient1.setText("Delete Doctor");
@@ -172,11 +172,11 @@ public class PatientListJPanel extends javax.swing.JPanel {
                 btnDeletePatient1ActionPerformed(evt);
             }
         });
-        add(btnDeletePatient1, new org.netbeans.lib.awtextra.AbsoluteConstraints(547, 513, 184, -1));
+        add(btnDeletePatient1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 510, 190, -1));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 325, 790, 10));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/receptionist.jpg"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 110, 670, 430));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 820, 520));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCreatePatientActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCreatePatientActionPerformed

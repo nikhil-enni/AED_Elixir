@@ -187,13 +187,13 @@
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Business/Images/folder/doctor-clinic-illustration_1270-69.jpg"/>
+              <Image iconType="3" name="/Image/usericonsmall.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel8"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="30" y="6" width="134" height="117"/>
+              <AbsoluteConstraints x="-20" y="6" width="200" height="117"/>
             </Constraint>
           </Constraints>
         </Component>

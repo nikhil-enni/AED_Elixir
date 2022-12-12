@@ -122,7 +122,7 @@ public class LabWorkAreaJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(WorkRequestTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 830, 171));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 1020, 171));
 
         btnAcknowledge.setBackground(new java.awt.Color(0, 153, 153));
         btnAcknowledge.setText("Accept Request");

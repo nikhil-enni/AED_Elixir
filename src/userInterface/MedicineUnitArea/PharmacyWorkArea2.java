@@ -139,7 +139,7 @@ public class PharmacyWorkArea2 extends javax.swing.JPanel {
         serialNumLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
         serialNumLbl.setForeground(new java.awt.Color(0, 0, 102));
         serialNumLbl.setText("SERIAL NUMBER: ");
-        add(serialNumLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 390, 210, 23));
+        add(serialNumLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 390, 240, 23));
 
         serialNumberTxtField.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
         add(serialNumberTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(561, 382, 252, 30));
@@ -147,7 +147,7 @@ public class PharmacyWorkArea2 extends javax.swing.JPanel {
         medicineNameLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
         medicineNameLbl.setForeground(new java.awt.Color(0, 0, 102));
         medicineNameLbl.setText("MEDICINE NAME: ");
-        add(medicineNameLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 430, 210, 25));
+        add(medicineNameLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 430, 240, 25));
 
         medicineNameTxtField.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
         add(medicineNameTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(561, 423, 252, 30));
