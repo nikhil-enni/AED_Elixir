@@ -84,3 +84,6 @@ Engineering techniques followed:
 Designed separate modules for business logic and userInterfaces
 DB4O to store objects/instances of classes or business models 
 Followed Object Oriented Principles like Inheritance.
+
+
+
